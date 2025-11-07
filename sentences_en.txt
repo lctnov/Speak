@@ -1,0 +1,989 @@
+architecture - Kiến trúc, Architecture defines the overall structure and design principles of a system.
+framework - Khung làm việc, A framework provides a foundation of reusable components and tools for development.
+library - Thư viện, A library offers specific functionalities that developers can use within applications.
+module - Tiêu chuẩn, A module organizes related code into a self-contained unit for better maintainability.
+component - Thành phần, A component represents a reusable and independent piece of functionality.
+service - Dịch vụ, A service performs specific tasks or provides data within an application or system.
+API - Giao diện lập trình ứng dụng, An API allows different systems or components to communicate with each other.
+SDK - Bộ phát triển phần mềm, An SDK provides tools and libraries to help developers integrate with a platform.
+algorithm - Thuật toán, An algorithm defines a step-by-step procedure for solving a problem.
+function - Hàm, A function performs a specific operation and can return a value.
+class - Lớp, A class defines the blueprint for creating objects in object-oriented programming.
+object - Đối tượng, An object is an instance of a class containing data and behavior.
+constructor - Người xây dựng, A constructor initializes the properties of an object when it’s created.
+interface - Giao diện, An interface defines a contract that classes must follow.
+implementation - Thực hiện, An implementation provides the actual behavior of an interface.
+pattern - Mẫu thiết kế, A pattern represents a proven solution to a recurring software design problem.
+dependency - Phụ thuộc, A dependency is an external module or library required by a project.
+integration - Tích hợp, Integration connects multiple components or systems to work together.
+refactor - Tái cấu trúc, To refactor means to restructure existing code without changing its behavior.
+build - xây dựng, A build compiles and packages code into a deployable format.
+release - Phát hành, A release makes a new version of the software available to users.
+version - Phiên bản, A version identifies a specific state or update of the software.
+patch - Bản vá, A patch fixes bugs or small issues in an existing release.
+bug - Lỗi, A bug is an error or flaw that causes the program to behave unexpectedly.
+feature - Tính năng, A feature adds new functionality to the software.
+specification - Thông số kỹ thuật, A specification describes the technical details and expected behavior of a system.
+requirement - Yêu cầu, A requirement defines what the system must do or achieve.
+test - Kiểm thử, A test verifies that the software works as intended.
+unit test - Kiểm thử đơn vị, A unit test checks the behavior of individual functions or modules.
+integration test - Kiểm thử tích hợp, An integration test ensures that multiple components work correctly together.
+automation - Tự động hóa, Automation uses scripts or tools to perform repetitive tasks automatically.
+ci/cd - Tích hợp liên tục / Triển khai liên tục, CI/CD automates the integration, testing, and deployment process.
+pipeline - Đường ống, A pipeline defines the sequence of automated build and deployment steps.
+deployment - Triển khai, Deployment delivers new software or updates to a live environment.
+rollback - Hoàn tác, Rollback restores the system to a previous stable version after a failed release.
+sandbox - Môi trường thử nghiệm, A sandbox is an isolated environment for testing or experimentation.
+runtime - Thời gian chạy, Runtime refers to the period when a program is executing.
+compiler - Trình biên dịch, A compiler translates source code into machine code before execution.
+interpreter - Trình thông dịch, An interpreter executes code line by line without prior compilation.
+garbage collection - Thu gom rác, Garbage collection automatically frees unused memory to prevent leaks.
+memory leak - Rò rỉ bộ nhớ, A memory leak occurs when memory is not properly released after use.
+thread - Luồng, A thread is a lightweight unit of execution within a process.
+process - Tiến trình, A process is an independent program running on a computer.
+asynchronous - Không đồng bộ, Asynchronous operations allow tasks to run without blocking others.
+synchronous - Đồng bộ, Synchronous operations execute tasks sequentially, one after another.
+callback - Gọi lại, A callback is a function passed as an argument to be executed later.
+promise - Hứa, A promise represents a value that will be available in the future.
+exception - Ngoại lệ, An exception occurs when an error disrupts program execution.
+logging - Ghi lịch sử, Logging records events or errors for debugging and monitoring.
+monitoring - Giám sát, Monitoring tracks the performance and health of applications in real time.
+profiling - Phân tích hiệu năng, Profiling analyzes the execution of code to find performance bottlenecks.
+code review - Xem xét mã, Code review ensures quality and consistency by having peers check the code.
+technical debt - Nợ kỹ thuật, Technical debt represents the cost of shortcuts taken during development.
+branching strategy - Chiến lược nhánh, A branching strategy defines how code branches are managed in version control.
+design - Thiết kế, Design refers to planning the structure and interactions of system components.
+mock - Giả mạo, A mock simulates an object’s behavior for testing purposes.
+stub - Cùi, A stub provides predefined responses during testing.
+stubbed service - Dịch vụ giả lập, A stubbed service mimics a real service with controlled outputs.
+contract - Hợp đồng, A contract defines the expected inputs and outputs of an API or service.
+contract testing - Kiểm thử hợp đồng, Contract testing verifies that two systems adhere to a shared contract.
+mocking - Chế giễu, Mocking replaces real objects with simulated ones during testing.
+session - Phiên, A session maintains user data across multiple requests.
+state - Trạng thái, State represents the current condition or data of an application.
+stateless - Không trạng thái, Stateless systems do not retain any data between requests.
+stateful - Có trạng thái, Stateful systems preserve context across multiple interactions.
+repository pattern - Mẫu Kho lưu trữ, The repository pattern separates data access logic from business logic.
+service mesh - Mạng lưới dịch vụ, A service mesh manages communication between microservices.
+microservice - Dịch vụ vi mô, A microservice is a small, independent service that performs a specific function.
+monolith - Khối đá nguyên khối, A monolith is a single, unified application containing all components.
+scalability - Khả năng mở rộng, Scalability measures how well a system can handle increased load.
+maintainability - Khả năng bảo trì, Maintainability reflects how easily a system can be updated or fixed.
+extensibility - Khả năng mở rộng chức năng, Extensibility determines how easily new features can be added.
+portability - Khả năng di chuyển, Portability ensures software runs across different platforms.
+backward compatibility - Tương thích ngược, Backward compatibility ensures new versions work with old systems.
+forward compatibility - Tương thích xuôi, Forward compatibility prepares current systems for future updates.
+load testing - Kiểm thử tải, Load testing measures performance under expected user loads.
+stress testing - Kiểm thử áp lực, Stress testing evaluates system behavior under extreme conditions.
+performance - Hiệu suất, Performance assesses how efficiently software executes tasks.
+throughput - Thông lượng, Throughput measures how many operations are completed per time unit.
+latency - Độ trễ, Latency measures the time delay between request and response.
+concurrency - Đồng thời, Concurrency allows multiple tasks to progress simultaneously.
+parallelism - Song song, Parallelism executes multiple tasks at the exact same time.
+dependency injection - Tiêm phụ thuộc, Dependency injection provides required objects instead of creating them manually.
+serialization - Tuần tự hóa, Serialization converts objects into a format for storage or transmission.
+deserialization - Hủy tuần tự hóa, Deserialization restores objects from serialized data.
+encryption - Mã hóa, Encryption secures data by transforming it into unreadable format.
+serialization format - Định dạng tuần tự hóa, A serialization format defines how data is structured when serialized.
+binary protocol - Giao thức nhị phân, A binary protocol transmits data in compact, machine-readable form.
+text protocol - Giao thức văn bản, A text protocol transmits data in human-readable format.
+protobuf - Nguyên mẫu, Protobuf is a binary serialization format developed by Google.
+thrift - Tiết kiệm, Thrift is a cross-language RPC and serialization framework.
+message queue - Hàng đợi tin nhắn, A message queue enables asynchronous communication between components.
+event - Sự kiện, An event represents a significant action or change in the system.
+event-driven - Điều khiển theo sự kiện, Event-driven systems react to events as they occur.
+observer - Người quan sát, The observer pattern notifies objects when another object’s state changes.
+singleton - Độc thân, The singleton pattern restricts a class to a single instance.
+factory - Nhà máy, The factory pattern creates objects without exposing creation logic.
+adapter - Bộ chuyển đổi, The adapter pattern allows incompatible interfaces to work together.
+decorator - Người trang trí, The decorator pattern adds behavior to objects dynamically.
+facade - Mặt tiền, The facade pattern provides a simplified interface to a complex subsystem.
+proxy - Người ủy nhiệm, The proxy pattern controls access to another object.
+strategy - Chiến lược, The strategy pattern selects algorithms dynamically at runtime.
+visitor - Khách thăm, The visitor pattern adds new operations without modifying existing classes.
+iterator - Trình lặp, The iterator pattern allows sequential access to elements in a collection.
+builder - Người xây dựng, The builder pattern constructs complex objects step by step.
+command - Yêu cầu, The command pattern encapsulates requests as objects for flexibility.
+mediator - Người hòa giải, The mediator pattern coordinates communication between components.
+chain of responsibility - Chuỗi trách nhiệm, The chain of responsibility passes requests along a chain of handlers.
+architecture module - Tiêu chuẩn kiến trúc, The architecture module manages system design and high-level structure.
+framework service - Dịch vụ khung làm việc, The framework service provides reusable infrastructure for applications.
+library service - Dịch vụ thư viện, The library service offers shared functionality for multiple modules.
+module service - Dịch vụ tiêu chuẩn, The module service handles dynamic module loading and dependencies.
+component service - Dịch vụ thành phần, The component service manages reusable UI or system components.
+service service - Dịch vụ dịch vụ, The service service oversees registration and orchestration of services.
+API service - Dịch vụ giao diện ứng dụng, The API service manages communication between different systems.
+SDK service - Dịch vụ phát triển phần mềm, The SDK service supports developers integrating with specific platforms.
+algorithm service - Dịch vụ thuật toán, The algorithm service provides optimized solutions for core operations.
+function service - Dịch vụ hàm, The function service executes reusable logic across applications.
+class service - Dịch vụ lớp, The class service defines and manages reusable class templates.
+object service - Dịch vụ đối tượng, The object service handles instance creation and lifecycle management.
+HTML - Ngôn ngữ đánh dấu siêu văn bản, HTML defines the structure and content of a web page.
+CSS - Ngôn ngữ định kiểu xếp tầng, CSS is used to style and visually format the HTML elements.
+JavaScript - JavaScript, JavaScript adds interactivity and dynamic behavior to websites.
+DOM - Mô hình đối tượng tài liệu, The DOM represents the page structure as a tree of objects.
+element - Phần tử, An element is a fundamental building block of an HTML document.
+attribute - Thuộc tính, Each attribute provides additional information about an element.
+selector - Bộ chọn, A selector targets specific elements in a stylesheet.
+stylesheet - Bảng định kiểu, A stylesheet contains the CSS rules that style the page.
+responsive design - Thiết kế đáp ứng, Responsive design ensures the website adapts to different screen sizes.
+grid - Lưới, The grid layout helps create flexible, structured page layouts.
+flexbox - Mô hình bố cục, Flexbox allows elements to align and distribute space efficiently.
+viewport - Khung nhìn, The viewport defines the visible area of a web page on a device.
+meta tag - Thẻ siêu dữ liệu, A meta tag provides metadata like description and viewport settings.
+header - Phần đầu trang, The header section often contains the logo and navigation menu.
+footer - Phần chân trang, The footer usually displays contact info and copyright details.
+navigation - Điều hướng, Navigation links help users move between different pages.
+sidebar - Thanh bên, The sidebar provides quick access to additional sections or tools.
+route - Tuyến đường, A route defines a specific URL path in a web application.
+routing - Định tuyến, Routing determines which component should load for a given route.
+SPA - Ứng dụng một trang, A SPA loads a single HTML page and updates content dynamically.
+MPA - Ứng dụng nhiều trang, An MPA consists of multiple pages that reload with each request.
+SSR - Kết xuất phía máy chủ, SSR renders content on the server before sending it to the browser.
+CSR - Kết xuất phía khách hàng, CSR renders content in the browser using JavaScript.
+hydration - Tác dụng, Hydration attaches interactivity to server-rendered HTML.
+static site - Trang tĩnh, A static site serves prebuilt HTML files with no server logic.
+dynamic site - Trang động, A dynamic site generates pages in real-time based on data.
+component - Thành phần, A component encapsulates logic, structure, and style into reusable units.
+props - Thuộc tính, Props are used to pass data between components.
+state - Trạng thái, State stores the current status or data of a component.
+hook - Để bắt, Hooks allow functional components to manage state and side effects.
+lifecycle - Vòng đời, The lifecycle defines how components mount, update, and unmount.
+render - Kết xuất, Render generates the visual output of a component.
+reflow - Tái sắp xếp bố cục, Reflow occurs when the browser recalculates element positions.
+repaint - Vẽ lại giao diện, Repaint happens when the browser redraws elements on the screen.
+asset - Tài nguyên, Assets include all images, fonts, and scripts used by the site.
+bundle - Gói tài nguyên, A bundle combines multiple files into one for efficient delivery.
+minification - Nén mã, Minification reduces file size by removing unnecessary characters.
+tree shaking - Loại bỏ mã thừa, Tree shaking eliminates unused code during the build process.
+webpack - Công cụ và chức năng chính, Webpack is a popular module bundler for JavaScript applications.
+rollup - Cuộn lên, Rollup is optimized for bundling small and modular libraries.
+parcel - Phân chia, Parcel offers zero-configuration bundling for fast builds.
+vite - Nhanh chóng, Vite provides instant dev servers and optimized production builds.
+babel - Tháp, Babel transpiles modern JavaScript into backward-compatible code.
+transpiler - Trình chuyển đổi mã, A transpiler converts code from one language version to another.
+polyfill - Tương thích và đồng nhất, A polyfill adds missing browser features for compatibility.
+service worker - Nhân viên dịch vụ, A service worker enables background tasks like caching and notifications.
+PWA - Ứng dụng web tiến bộ, PWA combines web and app-like features for better user experience.
+cache - Bộ nhớ đệm, A cache stores files locally to improve performance and offline access.
+local storage - Lưu trữ cục bộ, Local storage saves key-value data in the browser permanently.
+session storage - Lưu trữ phiên, Session storage stores data temporarily for the current browser session.
+cookie - Bánh quy, Cookies store small pieces of data on the client side for tracking or auth.
+authentication - Xác thực, Authentication verifies the identity of a user.
+authorization - Phân quyền, Authorization determines what actions an authenticated user can perform.
+CORS - Chia sẻ tài nguyên, CORS controls cross-origin requests between servers and clients.
+AJAX - JavaScript và XML không đồng bộ, AJAX allows web pages to send and receive data asynchronously.
+fetch - Lấy về, Fetch provides a modern interface for making network requests.
+XHR - Trình duyệt giao tiếp với máy chủ, XHR (XMLHttpRequest) is an older method for sending HTTP requests.
+API endpoint - Điểm cuối API, An API endpoint is a URL that allows interaction with backend data.
+REST API - Giao diện lập trình ứng dụng chuyển trạng thái biểu diễn, REST API uses standard HTTP methods to access and modify resources.
+GraphQL - Ngôn ngữ truy vấn dữ liệu cho API, GraphQL allows flexible querying and fetching of specific data.
+WebSocket - Giao thức an toàn, WebSocket enables real-time, bidirectional communication.
+socket - Socket, A socket maintains an open connection for data exchange.
+push notification - Thông báo đẩy, Push notification alerts users to updates or new content.
+form - Biểu mẫu, A form collects and submits user input to the server.
+validation - Xác thực dữ liệu, Validation checks whether input data meets defined criteria.
+accessibility - Khả năng truy cập, Accessibility ensures all users can interact with the website.
+seo - Tối ưu SEO, SEO improves website visibility in search engine results.
+aria - Không khí, ARIA provides attributes to enhance accessibility for assistive tools.
+sitemap - Sơ đồ trang, A sitemap lists all pages of a website for search engines.
+sitemap.xml - Sơ đồ trang web.xml, The sitemap.xml file helps Google and other crawlers index pages.
+robots.txt - Tệp văn bản, The robots.txt file instructs crawlers which pages to ignore.
+image optimization - Tối ưu hình ảnh, Image optimization reduces file size while maintaining quality.
+lazy loading - Tải chậm, Lazy loading delays loading of images until they appear in view.
+cdn - Mạng phân phối nội dung, A CDN delivers static assets faster by using distributed servers.
+hosting - Lưu trữ web, Hosting provides the server space where websites are deployed.
+HTML service - Dịch vụ HTML, The HTML service manages page templates and static content.
+CSS service - Dịch vụ CSS, The CSS service handles theming and style configurations.
+JavaScript service - Dịch vụ JavaScript, The JavaScript service controls interactivity and logic execution.
+DOM service - Dịch vụ DOM, The DOM service manipulates elements and handles user interaction.
+element service - Dịch vụ phần tử, The element service manages reusable UI elements.
+attribute service - Dịch vụ thuộc tính, The attribute service defines and updates HTML element attributes.
+selector service - Dịch vụ bộ chọn, The selector service identifies DOM elements for styling or scripting.
+stylesheet service - Dịch vụ bảng định kiểu, The stylesheet service organizes CSS rules for maintainability.
+grid service - Dịch vụ lưới, The grid service helps structure page layouts using grid templates.
+flexbox service - Dịch vụ hộp linh hoạt, The flexbox service aligns and distributes elements dynamically.
+viewport service - Dịch vụ khung nhìn, The viewport service manages scaling and responsive design settings.
+meta tag - Thẻ meta, A meta tag (advanced) dynamically adjusts SEO and social metadata.
+header service - Dịch vụ phần đầu trang, The header service manages navigation bars and top-level UI elements.
+footer service - Dịch vụ phần chân trang, The footer service handles layout and content for page bottoms.
+navigation service - Dịch vụ điều hướng, The navigation service manages routes and menus dynamically.
+sidebar service - Dịch vụ thanh bên, The sidebar service provides navigation shortcuts and extra features.
+route service - Dịch vụ tuyến đường, The route service defines URL mappings to specific components.
+routing service - Dịch vụ định tuyến, The routing service controls page transitions within SPAs.
+SPA service - Dịch vụ phát triển web, The SPA service ensures smooth navigation without page reloads.
+MPA service - Dịch vụ đơn vị đo lường, The MPA service handles traditional multi-page application routing.
+SSR service - Dịch vụ kết suất phía máy chủ, The SSR service supports server-side rendering for better SEO.
+CSR service - Dịch vụ CSR, The CSR service focuses on client-side rendering for dynamic interaction.
+hydration service - Dịch vụ nước, The hydration service connects server-rendered HTML with client logic.
+static site - Trang tĩnh, A static site delivers pre-generated HTML files for fast loading.
+database - Cơ sở dữ liệu, The database stores all structured information used by the system.
+table - Bảng, Each table represents a specific set of related data.
+row - Dòng, A row in the table corresponds to a single data entry.
+column - Cột, Each column defines a specific attribute of the data.
+field - Trường, A field is the intersection of a row and a column.
+record - Bản ghi, Every record must contain valid and complete information.
+schema - Lược đồ, The schema defines the structure and relationships within the database.
+index - Chỉ mục, An index improves query performance by speeding up searches.
+primary key - Khóa chính, The primary key uniquely identifies each row in a table.
+foreign key - Khóa ngoại, A foreign key establishes a relationship between two tables.
+unique constraint - Ràng buộc duy nhất, A unique constraint ensures that no duplicate values exist in a column.
+check constraint - Ràng buộc kiểm tra, A check constraint validates data according to defined rules.
+transaction - Giao dịch, A transaction groups multiple operations into a single logical unit.
+commit - Commit, A commit saves all changes made during the transaction.
+rollback - Quay lại, Rollback undoes changes if an error occurs during the transaction.
+isolation level - Mức độ cô lập, The isolation level determines how transactions interact with each other.
+ACID - ACID, ACID ensures reliable and consistent database transactions.
+BASE - Căn cứ, BASE focuses on flexibility and eventual consistency for distributed systems.
+query - Truy vấn, A query is used to retrieve data from the database.
+select - Chọn, The select statement returns specific data based on conditions.
+insert - Chèn, Insert adds a new record into a table.
+update - Cập nhật, Update modifies existing data in one or more rows.
+delete - Xóa, Delete removes records from a table.
+join - Nối, A join combines data from multiple tables based on relationships.
+inner join - Nối trong, Inner join returns only the matching rows from both tables.
+left join - Nối trái, Left join includes all rows from the left table and matches from the right.
+right join - Nối phải, Right join includes all rows from the right table and matches from the left.
+full join - Nối đầy đủ, Full join returns all rows when there is a match in either table.
+subquery - Truy vấn con, A subquery is a query nested inside another query.
+view - Xem, A view presents query results as a virtual table.
+materialized view - Chế độ xem vật chất hóa, A materialized view stores query results physically for faster access.
+stored procedure - Thủ tục lưu trữ, A stored procedure is a precompiled set of SQL statements.
+trigger - Kích hoạt, A trigger automatically executes when a specific event occurs in a table.
+cursor - Con trỏ, A cursor allows row-by-row data manipulation in SQL.
+cursor fetch - Tìm nạp con trỏ, Cursor fetch retrieves the next row from the cursor result set.
+normalization - Chuẩn hóa, Normalization reduces data redundancy and improves integrity.
+denormalization - Phi chuẩn hóa, Denormalization combines tables to optimize read performance.
+sharding - Phân mảnh, Sharding splits data across multiple databases to improve scalability.
+replication - Nhân bản, Replication keeps copies of data synchronized across servers.
+backup - Sao lưu, Backup ensures data can be recovered in case of loss.
+restore - Khôi phục, Restore loads data from a backup file.
+dump - Bãi rác, A dump exports the entire database into a portable file.
+restore point - Điểm khôi phục, A restore point allows rollback to a specific database state.
+migration - Di chuyển dữ liệu, Migration handles changes in the database structure or data.
+ORM - Ánh xạ quan hệ đối tượng, ORM maps objects in code to database tables.
+ODM - Nhà sản xuất thiết kế góc, ODM maps application objects to NoSQL document models.
+NoSQL - NoSQL, NoSQL databases store data in non-relational formats.
+document store - Kho tài liệu, A document store saves data as JSON-like structures.
+key-value store - Kho khóa-giá trị, A key-value store organizes data as pairs of unique keys and values.
+column family - Gia đình cột, Column family databases group related columns together.
+graph database - Cơ sở dữ liệu đồ thị, A graph database stores data in nodes and relationships.
+time-series database - Cơ sở dữ liệu chuỗi thời gian, A time-series database is optimized for timestamped data.
+in-memory database - Cơ sở dữ liệu trong bộ nhớ, An in-memory database keeps data in RAM for faster access.
+cache - Bộ nhớ đệm, A cache temporarily stores frequently used data to improve performance.
+redis - Kho lưu trữ dữ liệu, Redis is a popular in-memory key-value database.
+memcached - Hệ thống lưu trữ bộ nhớ đệm đối tượng, Memcached provides lightweight caching for web applications.
+consistency - Tính nhất quán, Consistency ensures all nodes see the same data at the same time.
+availability - Tính khả dụng, Availability means the system remains operational even during failures.
+partition tolerance - Dung nạp phân vùng, Partition tolerance ensures functionality despite network splits.
+CAP theorem - Định lý hành động khắc phục, The CAP theorem explains the trade-offs between consistency, availability, and partition tolerance.
+query planner - Trình lập kế hoạch truy vấn, The query planner decides the most efficient way to execute SQL.
+execution plan - Kế hoạch thực thi, An execution plan describes how the database processes a query.
+optimizer - Trình tối ưu, The optimizer determines the best strategy for query execution.
+statistics - Thống kê, Statistics help the optimizer estimate data distribution.
+table scan - Quét bảng, A table scan checks every row in a table during a query.
+index scan - Quét chỉ mục, An index scan uses index data to locate rows more efficiently.
+composite index - Chỉ mục ghép, A composite index uses multiple columns to improve query speed.
+covering index - Chỉ mục bao phủ, A covering index includes all columns required for a query.
+foreign key constraint - Ràng buộc khóa ngoại, A foreign key constraint enforces data integrity between tables.
+entity - Thực thể, An entity represents a real-world object stored in the database.
+relationship - Mối quan hệ, A relationship defines how entities are linked together.
+ER diagram - Sơ đồ thực thể, An ER diagram visualizes entities and their relationships.
+DDL - Ngôn ngữ định nghĩa dữ liệu, DDL defines and modifies database structures.
+DML - Ngôn ngữ thao tác dữ liệu, DML manipulates and retrieves data within tables.
+database service - Dịch vụ cơ sở dữ liệu, The database service manages data storage and retrieval operations.
+table service - Dịch vụ bảng, The table service handles creation and modification of database tables.
+row service - Dịch vụ dòng, The row service processes individual data entries.
+column service - Dịch vụ cột, The column service defines and manages table attributes.
+field service - Dịch vụ trường, The field service validates and formats cell-level data.
+record service - Dịch vụ bản ghi, The record service manages insert, update, and delete operations.
+schema service - Dịch vụ lược đồ, The schema service organizes database structure definitions.
+index service - Dịch vụ chỉ mục, The index service maintains and updates indexing mechanisms.
+primary key - Khóa chính, The primary key uniquely identifies records in its table.
+foreign key - Khóa ngoại, The foreign key enforces relational integrity between entities.
+unique constraint - Ràng buộc duy nhất, A unique constraint guarantees no duplicated values exist.
+check constraint - Ràng buộc kiểm tra, A check constraint ensures data validity based on specific rules.
+transaction service - Dịch vụ giao dịch, The transaction service manages commit and rollback operations.
+commit service - Dịch vụ commit, The commit service finalizes transactions permanently.
+rollback service - Dịch vụ quay lại, The rollback service reverses incomplete or failed transactions.
+isolation level - Mức độ cô lập, The isolation level controls data visibility between concurrent transactions.
+ACID service - Dịch vụ ACID, The ACID service ensures transaction reliability and atomicity.
+BASE service - Dịch vụ căn cứ, The BASE service provides eventual consistency in distributed systems.
+query service - Dịch vụ truy vấn, The query service executes read operations on data.
+select service - Chọn dịch vụ, The select service retrieves specific information from the database.
+insert service - Thêm dịch vụ, The insert service adds new records efficiently.
+update service - Cập nhật dịch vụ, The update service modifies existing data entries.
+delete service - Xóa dịch vụ, The delete service removes outdated or unnecessary data.
+join service - Tham gia dịch vụ, The join service links tables for combined data retrieval.
+inner join - Nối bên trong, An inner join merges related data from two tables.
+left join - Nối bên trái, A left join returns all records from the left table and matching ones from the right.
+stakeholder - Bên liên quan, The stakeholder provided valuable feedback during the planning meeting.
+roadmap - Lộ trình, The product roadmap outlines key goals for the next quarter.
+milestone - Mốc quan trọng, Each milestone represents a major progress checkpoint in the project.
+deliverable - Sản phẩm bàn giao, A deliverable must meet client expectations before submission.
+scope - Phạm vi, The project scope defines the boundaries of what will be delivered.
+requirement - Yêu cầu, Every requirement should be clearly documented and testable.
+user story - Câu chuyện người dùng, A user story describes how the end-user interacts with the system.
+acceptance criteria - Tiêu chí chấp nhận, Acceptance criteria ensure that each story meets the expected behavior.
+use case - Trường hợp sử dụng, A use case illustrates a specific scenario of system interaction.
+persona - Nhân vật người dùng, Each persona helps represent a different type of user behavior.
+product backlog - tồn đọng sản phẩm, The product backlog contains all pending features and improvements.
+sprint - Chạy nước rút, A sprint is a short iteration used to deliver incremental product updates.
+sprint planning - Lập kế hoạch nước rút, Sprint planning defines tasks and priorities for the upcoming cycle.
+sprint review - Xem xét nước rút, Sprint review allows the team to demonstrate completed work.
+retrospective - Hồi tưởng, Retrospective meetings help teams identify what to improve next time.
+kanban - Kanban, Kanban visualizes tasks using columns for workflow stages.
+scrum - Scrum, Scrum encourages teamwork and accountability through daily stand-ups.
+waterfall - Thác nước, Waterfall development follows a sequential project structure.
+estimate - Ước lượng, We need to estimate the effort required to complete each task.
+estimation - Quá trình ước lượng, Accurate estimation improves project planning and delivery.
+velocity - Vận tốc, Velocity measures how much work a team completes in one sprint.
+burn down - Biểu đồ burn-down, The burn down chart shows remaining tasks over time.
+burn up - Biểu đồ burn-up, A burn up chart tracks progress toward total project completion.
+capacity - Năng lực, Capacity planning ensures the team workload remains realistic.
+prioritization - Ưu tiên, Prioritization helps determine which features to build first.
+minimum viable product - Sản phẩm khả dụng tối thiểu, A minimum viable product focuses on core functionality for testing ideas.
+MVP - Sản phẩm khả thi tối thiểu, The MVP was released to gather early customer feedback.
+go-to-market - Chiến lược ra thị trường, A go-to-market strategy defines how the product will reach users.
+launch - Ra mắt, The launch event marked the official release of the new app.
+onboarding - Hướng dẫn sử dụng, A smooth onboarding experience increases user satisfaction.
+retention - Giữ chân, Retention metrics show how many users continue using the product.
+engagement - Tương tác, Engagement measures how actively users interact with features.
+churn - Tỷ lệ rời bỏ, Churn rate indicates how many users stop using the service.
+monetization - Kiếm tiền, Monetization strategies aim to generate sustainable revenue.
+pricing - Giá cả, Pricing should reflect both customer value and market position.
+market fit - Phù hợp thị trường, Market fit means the product satisfies real customer needs.
+competitive analysis - Phân tích đối thủ, Competitive analysis helps identify opportunities and weaknesses.
+stakeholder alignment - Căn chỉnh bên liên quan, Stakeholder alignment ensures all parties share common goals.
+risk - Rủi ro, Risk management helps minimize potential project failures.
+issue - Vấn đề, The issue was escalated to management for resolution.
+escalation - Leo thang, An escalation process defines how critical problems are handled.
+governance - Quản trị, Good governance ensures transparency and accountability.
+compliance - Tuân thủ, Compliance ensures the product meets all legal and regulatory standards.
+contract - Hợp đồng, The contract defines terms and responsibilities between both parties.
+service level agreement - Thỏa thuận mức dịch vụ, A service level agreement outlines performance expectations and uptime.
+SLA - Thỏa thuận cấp độ dịch vụ, An SLA defines measurable commitments such as response time.
+key performance indicator - Chỉ số hiệu suất chính, Key performance indicators track progress toward strategic goals.
+KPI - Chỉ số hiệu suất chính, KPIs are reviewed monthly to assess company performance.
+objective - Mục tiêu, Each objective should align with measurable key results.
+OKR - Kết quả then chốt, OKRs help teams focus on outcomes rather than tasks.
+business case - Trường hợp kinh doanh, A business case justifies the investment in a new initiative.
+ROI - Tỷ suất hoàn vốn, ROI measures the financial return on a project or product.
+budget - Ngân sách, The project budget must be approved before execution.
+timeline - Dòng thời gian, The timeline shows estimated delivery dates for each milestone.
+resource - Nguồn lực, Resource allocation ensures all team members are effectively utilized.
+vendor - Nhà cung cấp, The vendor provided third-party integration services.
+procurement - Thu mua, Procurement handles purchasing software and technical tools.
+stakeholder map - Bản đồ bên liên quan, The stakeholder map visualizes key individuals and their influence.
+requirement gathering - Thu thập yêu cầu, Requirement gathering involves meetings with clients and users.
+feature request - Yêu cầu tính năng, Feature requests are collected through the feedback system.
+stakeholder service - Dịch vụ bên liên quan, The stakeholder service manages communication with external partners.
+roadmap service - Dịch vụ lộ trình, The roadmap service tracks progress toward long-term goals.
+milestone service - Dịch vụ mốc quan trọng, The milestone service monitors key project checkpoints.
+deliverable service - Dịch vụ sản phẩm bàn giao, The deliverable service ensures outputs meet defined quality standards.
+scope service - Dịch vụ phạm vi, The scope service maintains control over approved project boundaries.
+requirement service - Dịch vụ yêu cầu, The requirement service organizes and validates incoming business needs.
+user story - Câu chuyện người dùng, A user story defines user interactions and desired outcomes.
+acceptance criteria - Tiêu chí chấp nhận, Acceptance criteria specify the success conditions for each user story.
+use case - Trường hợp sử dụng, A use case describes how the system behaves in specific contexts.
+persona service - Dịch vụ nhân vật người dùng, The persona service manages detailed profiles of user segments.
+product backlog - tồn đọng sản phẩm, The product backlog contains prioritized development items.
+sprint service - Dịch vụ nước rút, The sprint service manages scheduling and task tracking.
+sprint planning - Lập kế hoạch nước rút, Sprint planning defines workload distribution among team members.
+sprint review - Xem xét nước rút, Sprint review meetings demonstrate new deliverables to stakeholders.
+retrospective module - Mô-đun hồi tưởng, The retrospective module records insights for process improvement.
+kanban service - Dịch vụ kanban, The kanban service tracks progress through visual task boards.
+scrum service - Dịch vụ scrum, The scrum service manages collaboration between development teams.
+waterfall service - Dịch vụ thác nước, The waterfall service supports traditional project structures.
+estimate service - Dịch vụ ước lượng, The estimate service calculates cost and time predictions.
+estimation service - Dịch vụ quá trình ước lượng, The estimation service ensures consistency across project evaluations.
+git - Git, The team uses Git to manage all source code changes.
+repository - Kho mã nguồn, Each project is stored in a private repository on GitHub.
+remote - Xa, A remote is configured to connect your local repo to the server.
+origin - Nguồn gốc, The default remote is usually named origin.
+clone - Vòng vô tính, You can clone the repository to your local machine.
+fork - Fork, Developers often fork open-source projects before contributing.
+branch - Nhánh, A new branch was created to develop the upcoming feature.
+main - Chính, The main branch represents the stable production code.
+master - Bậc thầy, Some legacy projects still use the master branch.
+feature branch - Nhánh tính năng, Each feature branch focuses on one specific functionality.
+hotfix branch - Nhánh sửa lỗi khẩn cấp, A hotfix branch is created to fix urgent bugs in production.
+release branch - Nhánh phát hành, The release branch prepares code for deployment.
+commit - Làm, Remember to commit your changes with a clear message.
+push - Đẩy, You need permission to push updates to the remote repository.
+pull - Kéo, Before coding, always pull the latest changes from the main branch.
+fetch - Tìm về, Fetch retrieves changes without merging them automatically.
+merge - Hợp nhất, The developer merged the feature branch into main.
+rebase - tái sắp xếp, Rebase keeps the commit history clean and linear.
+cherry-pick - Chọn lọc, Cherry-pick allows you to apply a specific commit from another branch.
+tag - Nhẫn, A tag is used to mark a specific point in the repository’s history.
+annotated tag - Nhãn có chú thích, An annotated tag includes metadata like author and message.
+lightweight tag - Nhãn nhẹ, A lightweight tag only points to a specific commit without extra data.
+pull request - Yêu cầu kéo, A pull request lets others review your changes before merging.
+merge request - Yêu cầu hợp nhất, In GitLab, you create a merge request instead of a pull request.
+review - Xem xét, Every change must go through a review before approval.
+conflict - Xung đột, A conflict occurs when two branches modify the same part of code.
+resolve - Giải quyết, Developers must resolve conflicts before merging.
+diff - Khác biệt, Use the diff command to see what has changed between commits.
+patch - Bản vá, A patch can be created to share specific code changes.
+stash - Cất giữ, You can stash your unfinished work temporarily.
+apply - Áp dụng, Use apply to restore stashed changes without deleting them.
+pop - Pop, Pop applies and removes the most recent stash entry.
+checkout - Thanh toán, Checkout allows switching between branches or commits.
+HEAD - HEAD, HEAD points to your current commit in the repository.
+detached HEAD - Đầu tách rời, A detached HEAD occurs when you checkout a specific commit.
+submodule - Tiêu chuẩn phụ, The project uses a submodule for shared dependencies.
+subtree - Nhánh phụ, A subtree is used to include another repository within the main project.
+commit message - Tin nhắn làm, Write a meaningful commit message to describe your changes.
+history - Lịch sử, You can check the full commit history with git log.
+blame - Đổ tội, Blame helps identify who last modified each line of code.
+bisect - Chia đôi, Bisect finds the commit that introduced a bug through binary search.
+commit hash - cam kết băm, Each commit has a unique commit hash identifier.
+SHA - Thuật toán băm an toàn, The hash is generated using the SHA algorithm.
+gitignore - .gitignore, Use a .gitignore file to exclude unnecessary files from version control.
+gitattributes - .gitattributes, The .gitattributes file defines file-handling behaviors in Git.
+merge strategy - Chiến lược hợp nhất, You can choose a merge strategy based on your workflow.
+fast-forward - Chuyển tiếp nhanh, A fast-forward merge moves the branch pointer ahead without extra commits.
+squash - Bí quyết, Squash merges combine multiple commits into one.
+amend - Sửa đổi, Amend allows you to modify the most recent commit.
+revert - Hoàn nguyên, Revert creates a new commit that undoes previous changes.
+git service - Dịch vụ Git, The git service manages repositories and user access permissions.
+repository service - Dịch vụ kho mã nguồn, The repository service handles project storage and version tracking.
+remote service - Dịch vụ từ xa, The remote service synchronizes data between local and server repositories.
+origin service - Dịch vụ nguồn gốc, The origin service maintains the main remote configuration for projects.
+clone service - Dịch vụ vô tính, The clone service allows developers to copy repositories locally.
+fork service - Dịch vụ fork, The fork service enables contributors to duplicate projects for modification.
+branch service - Dịch vụ nhánh, The branch service organizes code into isolated development lines.
+main service - Dịch vụ chính, The main service manages the default production-ready branch.
+master service - Dịch vụ bậc thầy, The master service maintains legacy compatibility with older Git setups.
+feature branch - Nhánh tính năng, The feature branch is under active development this week.
+task - Nhiệm vụ, The team created a new task to improve the login module.
+ticket - Phiếu công việc, Each ticket in the system is assigned to a specific developer.
+issue - Vấn đề, An issue was reported during the deployment process.
+bug report - Báo cáo lỗi, The QA engineer submitted a detailed bug report.
+support - Hỗ trợ, The support team responded quickly to the customer’s request.
+incident - Sự cố, An incident occurred due to a configuration mismatch.
+root cause - Nguyên nhân gốc, Engineers analyzed the root cause to prevent future problems.
+postmortem - Phân tích sau sự cố, A postmortem was written after the outage to document lessons learned.
+runbook - Sổ tay vận hành, The runbook provides step-by-step recovery procedures.
+on-call - Trực ca, He is on-call this week to handle any urgent incidents.
+alert - Cảnh báo, An alert was triggered when the CPU usage exceeded the threshold.
+notification - Thông báo, Users receive a notification when their request is approved.
+dashboard - Bảng điều khiển, The dashboard displays real-time performance metrics.
+report - Báo cáo, A report is generated weekly to track project progress.
+log - Nhật ký, All system events are recorded in the log for auditing.
+audit - Kiểm toán, The audit confirmed that all security protocols were followed.
+metric - Chỉ số, Metric data helps identify performance bottlenecks.
+heatmap - Bản đồ nhiệt, The heatmap shows which areas of the website get the most traffic.
+trend - Xu hướng, The trend indicates a steady increase in active users.
+chart - Biểu đồ, A chart visualizes the comparison between daily and monthly revenue.
+insight - Thông tin chi tiết, The dashboard provides valuable insight into user behavior.
+analysis - Phân tích, Data analysis helps improve business decision-making.
+requirement - Yêu cầu, The requirement must be clearly defined before implementation.
+spec - Thông số kỹ thuật, The spec includes both functional and non-functional expectations.
+proposal - Đề xuất, The proposal outlines the key objectives and expected outcomes.
+meeting - Cuộc họp, A meeting was scheduled to discuss the next release.
+agenda - Chương trình nghị sự, The agenda includes product updates and future goals.
+minutes - Biên bản, Meeting minutes were shared with all attendees afterward.
+action item - Hành động cần thực hiện, Each action item was assigned to a responsible team member.
+follow-up - Theo dõi, A follow-up session will be held to review pending tasks.
+milestone - Mốc quan trọng, Completing this milestone marks the end of phase one.
+deadline - Hạn chót, The team is working hard to meet the deadline.
+handover - Bàn giao, A proper handover ensures smooth transition between teams.
+handoff - Bàn giao, The handoff process was documented for reference.
+documentation - Tài liệu, Documentation must be updated after every system change.
+README - Tệp đọc, The README file explains how to set up the project locally.
+changelog - Nhật ký thay đổi, The changelog lists all modifications made in each version.
+versioning - Quản lý phiên bản, Versioning helps maintain consistency across releases.
+integration test - Kiểm thử tích hợp, Integration test verifies that all modules work together correctly.
+smoke test - Kiểm thử khói, A smoke test checks basic functionality before deeper testing.
+sanity test - Kiểm thử sanity, A sanity test confirms that recent changes did not break core features.
+regression test - Kiểm thử hồi quy, Regression test ensures that previous functionality still works as expected.
+quality assurance - Đảm bảo chất lượng, Quality assurance focuses on maintaining high product standards.
+QA - Đảm bảo chất lượng, QA teams conduct tests to validate product reliability.
+UAT - Kiểm thử chấp nhận người dùng, UAT allows users to validate the product before final release.
+staging - Dựng môi trường, The staging environment replicates production for testing purposes.
+production - Môi trường sản phẩm, Production environment must be stable and secure for real users.
+environment - Môi trường, Each environment is configured separately to avoid interference.
+task service - Dịch vụ nhiệm vụ, The task service manages the creation and tracking of project tasks.
+ticket service - Dịch vụ phiếu công việc, The ticket service handles requests submitted by end users.
+issue service - Dịch vụ vấn đề, The issue service logs and monitors all system-related problems.
+bug report - Báo cáo lỗi, A bug report provides technical details for developers to reproduce the issue.
+support service - Dịch vụ hỗ trợ, The support service ensures timely assistance for customer needs.
+incident service - Dịch vụ sự cố, The incident service helps manage and document critical failures.
+root cause - Nguyên nhân gốc, Root cause analysis identifies the origin of recurring issues.
+postmortem service - Dịch vụ phân tích sau sự cố, The postmortem service stores reports and improvement plans.
+runbook service - Dịch vụ sổ tay vận hành, The runbook service automates response workflows for critical alerts.
+on-call service - Dịch vụ trực ca, The on-call service assigns engineers to monitor system uptime.
+alert service - Dịch vụ cảnh báo, The alert service integrates with monitoring tools to notify stakeholders.
+notification module - Tiêu chuẩn thông báo, The notification module manages emails, messages, and in-app alerts.
+GUI - Giao diện người dùng, The GUI allows users to interact visually with the system.
+troubleshooting - Xử lý sự cố, Troubleshooting network issues can be challenging but rewarding.
+user issue - Vấn đề người dùng, User issue reports help the team improve the overall experience.
+automated process - Quy trình tự động, An automated process was implemented to reduce manual workload.
+unit testing - Kiểm thử đơn vị, Unit testing ensures each component works as intended.
+potential solution - Giải pháp tiềm năng, The team brainstormed to find a potential solution for the bug.
+engineering personnel - Nhân sự kỹ thuật, Engineering personnel reviewed the system’s technical architecture.
+technical personnel - Nhân sự kỹ thuật, Technical personnel provided feedback during system deployment.
+program intent - Ý định chương trình, The program intent must be clearly defined before development begins.
+trial run - Chạy thử, A trial run was conducted to validate the software’s stability.
+software update - Cập nhật phần mềm, The software update includes several performance improvements.
+SRS - Tài liệu yêu cầu phần mềm, The SRS defines all functional and non-functional requirements.
+design document - Tài liệu thiết kế, A design document helps developers align with system goals.
+related system - Hệ thống liên quan, The related system must be updated to maintain compatibility.
+application issue - Vấn đề ứng dụng, The application issue was resolved after reviewing the error logs.
+efficient performance - Hiệu suất tối ưu, Efficient performance is crucial for large-scale applications.
+ad-hoc duty - Nhiệm vụ phát sinh, He was assigned an ad-hoc duty to support the testing phase.
+functional programming - Lập trình chức năng, Functional programming focuses on pure functions and immutability.
+CQRS - Phân tách trách nhiệm truy vấn lệnh, CQRS separates read and write operations to optimize performance.
+MongoDB Charts - Biểu đồ MongoDB, MongoDB Charts provides real-time data visualization.
+RESTful web service - Dịch vụ web RESTful, A RESTful web service was developed to connect multiple applications.
+problem-solving skill - Kỹ năng giải quyết vấn đề, Problem-solving skill is essential for every software engineer.
+self-starter - Người tự khởi xướng, She is a self-starter who quickly adapts to new technologies.
+SOA - Kiến trúc hướng dịch vụ, SOA promotes reusability and flexibility in distributed systems.
+microservice - Microservice, Microservice architecture improves scalability and fault isolation.
+Scrum framework - Khung Scrum, The Scrum framework helps manage projects through iterative cycles.
+AWS - Dịch vụ web amazon, AWS provides a wide range of scalable cloud services.
+Lambda - Lambda, Lambda functions allow running code without managing servers.
+IoT Core - IoT Core, IoT Core enables devices to communicate securely in the cloud.
+client-side - Phía người dùng, Client-side rendering improves interactivity for web applications.
+server-side - Phía máy chủ, Server-side logic handles authentication and data validation.
+infrastructure architecture - Kiến trúc hạ tầng, Infrastructure architecture defines how all systems interact efficiently.
+non-functional requirement - Yêu cầu phi chức năng, Non-functional requirements include scalability, security, and performance.
+usability - Tính khả dụng, Usability testing ensures that the product is intuitive for users.
+technical documentation - Tài liệu kỹ thuật, Technical documentation helps maintain consistency across teams.
+robot management system - Hệ thống quản lý người máy, The robot management system monitors all connected robot agents.
+robot agent - Tác nhân người máy, Each robot agent communicates data back to the central server.
+mockup - Mẫu giao diện, The mockup demonstrates the main layout of the dashboard.
+workflow - Luồng công việc, Workflow automation reduces repetitive manual tasks.
+GCP - Nền tảng đám mây của Google, GCP offers tools for deploying and managing cloud applications.
+Docker - Docker, Docker helps containerize applications for consistent deployment.
+CI/CD - Tích hợp & triển khai liên tục, CI/CD pipelines automate testing and deployment processes.
+OOP design - Thiết kế hướng đối tượng, OOP design encourages code reuse through encapsulation and inheritance.
+programming language - Ngôn ngữ lập trình, Choosing the right programming language depends on project goals.
+Linux - Linux, Linux is widely used for its stability and open-source flexibility.
+communication skill - Kỹ năng giao tiếp, Strong communication skill is vital for collaborative projects.
+quantity - Số lượng, The quantity of requests increased significantly after launch.
+system operation - Hoạt động hệ thống, System operation logs are reviewed daily for anomalies.
+requirement specification - Thông số yêu cầu, Requirement specification defines the project’s scope and objectives.
+documentation - Tài liệu, Documentation must be updated whenever new features are added.
+solution - Giải pháp, The proposed solution reduces latency and improves reliability.
+integration - Tích hợp, Integration testing validates the interaction between modules.
+issue - Vấn đề, The issue was traced back to a configuration mismatch.
+root cause - Nguyên nhân gốc, Root cause analysis revealed a missing dependency in the system.
+work request - Yêu cầu công việc, The work request was approved by the direct manager.
+direct manager - Quản lý trực tiếp, The direct manager coordinates daily activities for the development team.
+Java - Java, Java is a versatile programming language used in enterprise systems.
+NoSQL - Dữ liệu phi quan hệ, NoSQL databases store unstructured or semi-structured data efficiently.
+data structure - Cấu trúc dữ liệu, A well-designed data structure improves algorithm performance.
+algorithm - Thuật toán, Algorithm optimization reduces computation time and resource usage.
+REST API - REST API, The REST API provides endpoints for third-party integration.
+third-party integration - Tích hợp bên thứ ba, Third-party integration adds extra functionality to the platform.
+testing framework - Khung kiểm thử, A testing framework ensures consistency across automated tests.
+automation - Tự động hóa, Automation improves efficiency and reduces human error.
+caching technology - Công nghệ bộ nhớ đệm, Caching technology speeds up data retrieval for frequent requests.
+Redis - Redis, Redis is used as an in-memory cache to store session data.
+message broker - Trình nhắn tin, A message broker like Kafka handles communication between services.
+Kafka - Kafka, Kafka enables real-time data streaming across distributed systems.
+security - Bảo mật, Security is a top priority when handling financial transactions.
+FinTech - Tài chính công nghệ, FinTech innovations are transforming the global payment industry.
+banking - Ngân hàng, Many banks are adopting microservices to enhance flexibility.
+payment industry - Ngành thanh toán, The payment industry relies heavily on secure and fast APIs.
+WebSocket - WebSocket, WebSocket enables real-time communication between client and server.
+VueJS - VueJS, VueJS simplifies the creation of dynamic and interactive interfaces.
+NestJS - NestJS, NestJS provides a modular and maintainable server-side framework.
+Angular - Angular, Angular is popular for building complex enterprise web applications.
+functional pattern - Mẫu chức năng, A functional pattern helps developers write clean and predictable code.
+technical analytical skill - Kỹ năng phân tích kỹ thuật, Strong technical analytical skill is crucial for solving complex issues.
+AWS - Dịch vụ đám mây Amazon, AWS services are used to deploy scalable and secure infrastructures.
+container - Container, Each container isolates its environment for predictable execution.
+container orchestration - Điều phối vùng chứa, Container orchestration simplifies deployment and scaling in production.
+ensure - Đảm bảo, We ensure that all applications meet quality and security standards before deployment.
+optimal - Tối ưu, The system was redesigned to achieve optimal performance under heavy load.
+performance - Hiệu suất, Regular monitoring helps maintain stable system performance.
+components - Các thành phần, Each component of the application is modular and reusable.
+collaborate - Hợp tác, Developers collaborate closely with designers to create a seamless user experience.
+closely - Chặt chẽ, I worked closely with the backend team to integrate APIs efficiently.
+deliver - Được giao, Our goal is to deliver high-quality software solutions on time.
+solutions - Giải pháp, We provide innovative solutions to complex business problems.
+centric - Trung tâm, The company follows a user-centric approach in all design decisions.
+involves - Bao gồm, The role involves maintaining existing systems and developing new features.
+troubleshooting - Xử lý sự cố, I am responsible for troubleshooting and resolving technical issues.
+improving - Cải thiện, I focus on continuously improving code quality and performance.
+existing - Hiện có, We enhanced existing features based on user feedback.
+efficient - Có hiệu quả, Writing clean and efficient code is a key part of my workflow.
+adhering - Tuân thủ, The project was developed while adhering to industry best practices.
+practices - Thực hành, We promote modern development practices such as CI/CD and automated testing.
+proficiency - Trình độ thành thạo, Proficiency in React and Node.js is required for this position.
+Experience - Kinh nghiệm, Experience in cloud platforms like AWS or Azure is a plus.
+Proficiency - Sự thành thạo, Proficiency in English communication is essential for working with global teams.
+attention - Chú ý, Attention to detail is crucial when reviewing pull requests.
+multidisciplinary - Đa nghành, I enjoy working in a multidisciplinary team combining design, data, and development.
+scalable - Mở rộng, We built a scalable architecture to handle future user growth.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
