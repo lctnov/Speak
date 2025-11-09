@@ -1,0 +1,420 @@
+How's your day going?@Hôm nay công việc/buổi sáng của bạn thế nào?
+What are you working on?@Bạn đang làm gì vậy?
+Do you need any help with that?@Bạn có cần mình hỗ trợ việc đó không?
+Are you available to discuss the project?@Bạn có rảnh để thảo luận về dự án không?
+Could you clarify this requirement?@Bạn có thể làm rõ yêu cầu này không?
+I’m a bit busy right now but I’ll check it later.@Tôi đang bận một chút nhưng sẽ xem sau.
+Sure I can help with that.@Chắc chắn tôi có thể hỗ trợ việc đó.
+Not too bad thanks. And you?@Không tệ cảm ơn. Còn bạn thì sao?
+Want to grab lunch?@Đi ăn trưa không?
+Let’s catch up later.@Hẹn trò chuyện sau nhé.
+Have a great day!@Chúc bạn một ngày tốt lành?
+I’ve run into an issue with the server.@Tôi gặp vấn đề với server.
+Can we schedule a call to discuss this?@Chúng ta có thể lên lịch gọi để thảo luận không?
+Please review this PR when you get a chance.@Vui lòng xem PR này khi có thời gian.
+The deployment is complete.@Việc triển khai đã xong.
+I’m testing the new feature.@Tôi đang thử nghiệm tính năng mới.
+Do you have any updates on the task?@Bạn có cập nhật gì về task không?
+Could you share the logs?@Bạn có thể chia sẻ logs không?
+I’m running late join the meeting without me.@Tôi hơi muộn bạn họp trước đi?
+Thanks for the help!@Cảm ơn vì đã hỗ trợ?
+Let’s do a quick sync.@Hãy trao đổi nhanh nhé?
+I’m looking into the bug.@Tôi đang kiểm tra lỗi?
+Can you provide more details?@Bạn có thể cung cấp thêm chi tiết không?
+Do you want me to take care of it?@Bạn có muốn tôi xử lý việc đó không?
+I’ll update the doc accordingly.@Tôi sẽ cập nhật tài liệu theo đó?
+Great job on the release!@Làm tốt việc phát hành?
+Could you check the API response?@Bạn có thể kiểm tra phản hồi API không?
+I need access to the server.@Tôi cần quyền truy cập vào server?
+The task is blocked by a dependency.@Task bị chặn bởi một dependency?
+What’s the ETA on this task?@Thời gian hoàn thành dự kiến của task là bao lâu?
+Do you want to pair on this feature?@Bạn có muốn pair coding tính năng này không?
+I’ve pushed the changes to Git.@Tôi đã push thay đổi lên Git?
+Could you review the code?@Bạn có thể review code không?
+Everything looks fine.@Mọi thứ trông ổn?
+I’m on it.@Tôi đang xử lý?
+Can we have a quick standup?@Chúng ta họp nhanh không?
+The build failed checking logs.@Build bị fail đang kiểm tra logs?
+Do you need me to deploy?@Bạn có cần tôi deploy không?
+I’ll send over the details.@Tôi sẽ gửi chi tiết?
+That sounds good!@Nghe hay đấy?
+Let’s grab coffee later.@Hãy đi cafe sau nhé?
+I’ll follow up tomorrow.@Tôi sẽ theo dõi vào ngày mai?
+I’m working on a hotfix.@Tôi đang làm hotfix?
+Can we reschedule the meeting?@Chúng ta có thể dời lịch họp không?
+Thanks for your patience.@Cảm ơn bạn đã kiên nhẫn?
+Could you update the ticket?@Bạn có thể cập nhật ticket không?
+I’m deploying to staging.@Tôi đang deploy lên staging?
+Do you have a minute to discuss?@Bạn có một phút để thảo luận không?
+I’ll get back to you shortly.@Tôi sẽ trả lời bạn sớm?
+Please let me know your thoughts.@Vui lòng cho tôi biết ý kiến của bạn?
+Looking forward to your feedback.@Mong nhận được phản hồi của bạn?
+I’m on leave today.@Hôm nay tôi nghỉ phép?
+Shall we do a code review?@Chúng ta làm code review nhé?
+I’m debugging the issue.@Tôi đang debug lỗi?
+Do you want to join the call?@Bạn có muốn tham gia cuộc gọi không?
+Thanks for the quick response!@Cảm ơn phản hồi nhanh?
+I’ll document the steps.@Tôi sẽ ghi lại các bước?
+Please confirm once done.@Vui lòng xác nhận khi xong?
+Can you check the server status?@Bạn có thể kiểm tra trạng thái server không?
+I’ve assigned the task to you.@Tôi đã gán task cho bạn?
+Could you merge the PR?@Bạn có thể merge PR không?
+I’ll schedule a follow-up.@Tôi sẽ lên lịch theo dõi?
+Everything is on track.@Mọi thứ đang theo kế hoạch?
+Please share the screenshot.@Vui lòng chia sẻ screenshot?
+Do you want me to test it?@Bạn có muốn tôi test không?
+Let’s sync tomorrow.@Hãy trao đổi ngày mai nhé?
+I’m checking the database.@Tôi đang kiểm tra database?
+The service is down.@Dịch vụ đang ngừng hoạt động?
+I’ll escalate this issue.@Tôi sẽ đưa vấn đề này lên cấp cao hơn?
+Do you want to review together?@Bạn có muốn review cùng nhau không?
+Please update your branch.@Vui lòng cập nhật branch của bạn?
+Thanks for the update!@Cảm ơn vì đã cập nhật?
+I’ll handle the deployment.@Tôi sẽ xử lý việc deploy?
+Can you reproduce the issue?@Bạn có thể tái hiện lỗi không?
+I’ve scheduled the meeting.@Tôi đã lên lịch họp?
+Shall we prioritize this task?@Chúng ta ưu tiên task này nhé?
+I’m running a performance test.@Tôi đang chạy test hiệu năng?
+Do you want me to explain?@Bạn có muốn tôi giải thích không?
+Everything is working as expected.@Mọi thứ hoạt động như mong đợi?
+I’ll merge after review.@Tôi sẽ merge sau khi review?
+Thanks for catching that!@Cảm ơn đã phát hiện lỗi?
+Do you want me to draft the email?@Bạn có muốn tôi soạn email không?
+Let’s have a quick call.@Hãy gọi nhanh nhé?
+I’m updating the documentation.@Tôi đang cập nhật tài liệu?
+Please assign it to me.@Vui lòng gán việc này cho tôi?
+Can we discuss offline?@Chúng ta thảo luận riêng được không?
+I’ve fixed the bug.@Tôi đã sửa lỗi?
+Can you check the server logs?@Bạn có thể kiểm tra logs của server không?
+I need help with this bug.@Tôi cần giúp đỡ với lỗi này.
+Have you deployed the latest version?@Bạn đã deploy phiên bản mới nhất chưa?
+Let’s review the design document.@Hãy xem lại tài liệu thiết kế.
+Can you update the ticket status?@Bạn có thể cập nhật trạng thái ticket không?
+I’m testing the new module.@Tôi đang test module mới.
+Please provide the database credentials.@Vui lòng cung cấp thông tin đăng nhập database.
+I’ll handle the merge conflict.@Tôi sẽ xử lý xung đột merge.
+Could you validate this API response?@Bạn có thể xác thực phản hồi API không?
+Do you want to pair on debugging?@Bạn có muốn pair coding để debug không?
+I’m checking the error logs.@Tôi đang kiểm tra logs lỗi.
+Please update the project documentation.@Vui lòng cập nhật tài liệu dự án.
+Have you pushed your branch?@Bạn đã push branch của mình chưa?
+Let’s have a quick team sync.@Hãy có buổi sync nhanh với team.
+Can we schedule a deployment?@Chúng ta có thể lên lịch triển khai không?
+I’ll take care of the hotfix.@Tôi sẽ xử lý hotfix.
+Could you check the server status?@Bạn có thể kiểm tra trạng thái server không?
+The database query is failing.@Câu truy vấn database đang gặp lỗi.
+I’ll create a backup before deployment.@Tôi sẽ tạo bản backup trước khi deploy.
+Please confirm the change request.@Vui lòng xác nhận yêu cầu thay đổi.
+Let’s discuss the code review.@Hãy thảo luận về review code.
+Do you need me to join the meeting?@Bạn có cần tôi tham gia cuộc họp không?
+I’m optimizing the server performance.@Tôi đang tối ưu hiệu năng server.
+Could you test the new feature?@Bạn có thể test tính năng mới không?
+I’m looking into the network issue.@Tôi đang xem xét vấn đề mạng.
+Please review the security patch.@Vui lòng kiểm tra bản vá bảo mật.
+Do you have the latest logs?@Bạn có logs mới nhất không?
+Let’s discuss the deployment plan.@Hãy thảo luận về kế hoạch triển khai.
+I’ll escalate this to the manager.@Tôi sẽ đưa vấn đề này lên quản lý.
+Can we automate this process?@Chúng ta có thể tự động hóa quy trình này không?
+I’m updating the API documentation.@Tôi đang cập nhật tài liệu API.
+Please check the test cases.@Vui lòng kiểm tra các test case.
+I’ve fixed the merge issues.@Tôi đã sửa các xung đột merge.
+Do you want me to deploy this update?@Bạn có muốn tôi triển khai bản cập nhật này không?
+I’m running integration tests.@Tôi đang chạy test tích hợp.
+Please verify the server configuration.@Vui lòng xác minh cấu hình server.
+Can we schedule a sprint planning?@Chúng ta có thể lên lịch lập kế hoạch sprint không?
+I’ll check the system logs.@Tôi sẽ kiểm tra logs hệ thống.
+Could you review this documentation?@Bạn có thể review tài liệu này không?
+I’m debugging the API issue.@Tôi đang debug vấn đề API.
+Please provide the access credentials.@Vui lòng cung cấp thông tin truy cập.
+Do you want to schedule a quick call?@Bạn có muốn lên lịch gọi nhanh không?
+I’ve deployed the changes to staging.@Tôi đã triển khai thay đổi lên môi trường staging.
+Let’s have a design review session.@Hãy có buổi review thiết kế.
+I’m checking the server load.@Tôi đang kiểm tra tải server.
+Please update the project timeline.@Vui lòng cập nhật tiến độ dự án.
+Do you need assistance with testing?@Bạn có cần hỗ trợ test không?
+I’ll monitor the deployment.@Tôi sẽ giám sát việc triển khai.
+Can you reproduce the bug?@Bạn có thể tái hiện lỗi không?
+I’m optimizing the database queries.@Tôi đang tối ưu các câu truy vấn database.
+Please confirm the release schedule.@Vui lòng xác nhận lịch phát hành.
+Let’s discuss the incident report.@Hãy thảo luận về báo cáo sự cố.
+I’ll provide a patch for this issue.@Tôi sẽ cung cấp bản vá cho vấn đề này.
+Do you want me to debug this issue?@Bạn có muốn tôi debug vấn đề này không?
+I’m updating the deployment scripts.@Tôi đang cập nhật script triển khai.
+Can we review the test results?@Chúng ta có thể xem lại kết quả test không?
+I’m checking the API logs.@Tôi đang kiểm tra logs API.
+Please provide the server credentials.@Vui lòng cung cấp thông tin đăng nhập server.
+Do you want me to write the unit tests?@Bạn có muốn tôi viết unit test không?
+I’ve updated the documentation.@Tôi đã cập nhật tài liệu.
+Let’s have a quick bug triage.@Hãy có buổi phân loại lỗi nhanh.
+I’m deploying the patch now.@Tôi đang triển khai bản vá ngay bây giờ.
+Could you validate the database migration?@Bạn có thể xác thực việc migration database không?
+Please confirm the configuration changes.@Vui lòng xác nhận các thay đổi cấu hình.
+I’m investigating the server crash.@Tôi đang điều tra sự cố server.
+Do you want to pair on testing this feature?@Bạn có muốn pair coding để test tính năng này không?
+I’ll check the logs for errors.@Tôi sẽ kiểm tra logs để tìm lỗi.
+Please update the backlog with these tasks.@Vui lòng cập nhật backlog với các task này.
+I’m debugging the deployment script.@Tôi đang debug script triển khai.
+Can we schedule a code walkthrough?@Chúng ta có thể lên lịch review code không?
+I’ve fixed the critical bug.@Tôi đã sửa lỗi nghiêm trọng.
+Do you need help with server configuration?@Bạn có cần hỗ trợ cấu hình server không?
+I’ll create a test environment.@Tôi sẽ tạo môi trường test.
+Please review the design mockups.@Vui lòng xem lại mockup thiết kế.
+I’m checking the network latency.@Tôi đang kiểm tra độ trễ mạng.
+Can we discuss the API integration?@Chúng ta có thể thảo luận về tích hợp API không?
+I’ll monitor the logs during deployment.@Tôi sẽ giám sát logs trong quá trình triển khai.
+Please validate the feature implementation.@Vui lòng xác thực việc triển khai tính năng.
+Do you want to schedule a standup meeting?@Bạn có muốn lên lịch họp standup không?
+I’m optimizing the backend performance.@Tôi đang tối ưu hiệu năng backend.
+Can you test the staging environment?@Bạn có thể test môi trường staging không?
+I’ll deploy the update after testing.@Tôi sẽ triển khai bản cập nhật sau khi test.
+Please confirm the release notes.@Vui lòng xác nhận ghi chú phát hành.
+I’m fixing the database constraints.@Tôi đang sửa các ràng buộc database.
+Do you want me to check the error logs?@Bạn có muốn tôi kiểm tra logs lỗi không?
+I’ll review the pull request.@Tôi sẽ review pull request.
+Please provide the test results.@Vui lòng cung cấp kết quả test.
+I’m configuring the CI/CD pipeline.@Tôi đang cấu hình CI/CD pipeline.
+Can we have a quick sync on the project?@Chúng ta có thể trao đổi nhanh về dự án không?
+I’ve updated the environment variables.@Tôi đã cập nhật biến môi trường.
+Do you want to deploy to production?@Bạn có muốn triển khai lên production không?
+I’ll analyze the performance metrics.@Tôi sẽ phân tích các chỉ số hiệu năng.
+Please review the server logs.@Vui lòng xem lại logs server.
+I’m debugging the frontend issue.@Tôi đang debug vấn đề frontend.
+Can you validate the test scripts?@Bạn có thể xác thực script test không?
+I’ll update the API endpoints.@Tôi sẽ cập nhật các endpoint API.
+Please confirm the staging deployment.@Vui lòng xác nhận triển khai lên staging.
+I’m testing the integration scripts.@Tôi đang test các script tích hợp.
+Do you want to review the error logs together?@Bạn có muốn review logs lỗi cùng nhau không?
+I’ll create a patch branch for the fix.@Tôi sẽ tạo branch patch để sửa lỗi.
+Please check the server response times.@Vui lòng kiểm tra thời gian phản hồi server.
+I’m updating the feature documentation.@Tôi đang cập nhật tài liệu tính năng.
+Can we discuss the release plan?@Chúng ta có thể thảo luận kế hoạch phát hành không?
+I’ll schedule a follow-up meeting.@Tôi sẽ lên lịch họp tiếp theo.
+Please confirm the database migration.@Vui lòng xác nhận việc migration database.
+I’m fixing the backend bug.@Tôi đang sửa lỗi backend.
+Do you want to pair on the deployment?@Bạn có muốn pair coding trong quá trình triển khai không?
+I’ll review the CI/CD configuration.@Tôi sẽ xem lại cấu hình CI/CD.
+Please test the new API endpoints.@Vui lòng test các endpoint API mới.
+I’m monitoring the server performance.@Tôi đang giám sát hiệu năng server.
+Can we discuss the design changes?@Chúng ta có thể thảo luận về thay đổi thiết kế không?
+I’ll check the frontend logs.@Tôi sẽ kiểm tra logs frontend.
+Please confirm the API changes.@Vui lòng xác nhận các thay đổi API.
+I’m testing the database scripts.@Tôi đang test các script database.
+Can we have a design review session?@Chúng ta có thể có buổi review thiết kế không?
+I’ll check the staging environment.@Tôi sẽ kiểm tra môi trường staging.
+Please provide the access tokens.@Vui lòng cung cấp token truy cập.
+I’m debugging the server crash.@Tôi đang debug sự cố server.
+Do you want me to write the deployment script?@Bạn có muốn tôi viết script triển khai không?
+I’ll monitor the API performance.@Tôi sẽ giám sát hiệu năng API.
+Please review the test coverage.@Vui lòng kiểm tra mức độ bao phủ test.
+I’m fixing the frontend bug.@Tôi đang sửa lỗi frontend.
+Can we discuss the CI/CD pipeline?@Chúng ta có thể thảo luận về CI/CD pipeline không?
+I’ll deploy the patch to production.@Tôi sẽ triển khai bản vá lên production.
+Please validate the new feature.@Vui lòng xác thực tính năng mới.
+I’m checking the system logs.@Tôi đang kiểm tra logs hệ thống.
+Do you want to pair on debugging the backend?@Bạn có muốn pair coding để debug backend không?
+I’ll review the pull requests today.@Tôi sẽ review pull request hôm nay.
+Please provide the latest database dump.@Vui lòng cung cấp bản dump database mới nhất.
+I’m optimizing the frontend code.@Tôi đang tối ưu code frontend.
+Can we have a quick sync on the API?@Chúng ta có thể trao đổi nhanh về API không?
+I’ll update the CI/CD scripts.@Tôi sẽ cập nhật script CI/CD.
+Please confirm the deployment schedule.@Vui lòng xác nhận lịch triển khai.
+I’m fixing the login issue.@Tôi đang sửa lỗi đăng nhập.
+Do you want me to test the production environment?@Bạn có muốn tôi test môi trường production không?
+I’ll create a branch for the new feature.@Tôi sẽ tạo branch cho tính năng mới.
+Please check the server logs for errors.@Vui lòng kiểm tra logs server để tìm lỗi.
+I’m updating the API documentation.@Tôi đang cập nhật tài liệu API.
+Can we discuss the test results?@Chúng ta có thể thảo luận kết quả test không?
+I’ll monitor the deployment process.@Tôi sẽ giám sát quá trình triển khai.
+Please validate the frontend changes.@Vui lòng xác thực các thay đổi frontend.
+I’m debugging the database connection issue.@Tôi đang debug lỗi kết nối database.
+Do you want to pair on testing the new feature?@Bạn có muốn pair coding để test tính năng mới không?
+I’ll check the server response time.@Tôi sẽ kiểm tra thời gian phản hồi server.
+Please review the CI/CD configuration.@Vui lòng xem lại cấu hình CI/CD.
+I’m fixing the logout bug.@Tôi đang sửa lỗi đăng xuất.
+Can we schedule a quick team call?@Chúng ta có thể lên lịch gọi nhanh với team không?
+I’ll deploy the update to staging.@Tôi sẽ triển khai bản cập nhật lên staging.
+Please provide the test environment details.@Vui lòng cung cấp thông tin môi trường test.
+I’m monitoring the backend performance.@Tôi đang giám sát hiệu năng backend.
+Do you want me to update the documentation?@Bạn có muốn tôi cập nhật tài liệu không?
+I’ll review the database migration.@Tôi sẽ xem lại migration database.
+Please check the API endpoints.@Vui lòng kiểm tra các endpoint API.
+I’m testing the frontend scripts.@Tôi đang test script frontend.
+Can we discuss the production issue?@Chúng ta có thể thảo luận về sự cố production không?
+I’ll update the feature branch.@Tôi sẽ cập nhật branch tính năng.
+Please confirm the system upgrade.@Vui lòng xác nhận nâng cấp hệ thống.
+I’m fixing the session timeout bug.@Tôi đang sửa lỗi timeout phiên làm việc.
+Do you want to join the debugging session?@Bạn có muốn tham gia buổi debug không?
+I’ll create the backup before deployment.@Tôi sẽ tạo bản backup trước khi triển khai.
+Please validate the performance metrics.@Vui lòng xác thực các chỉ số hiệu năng.
+I’m checking the CI/CD pipeline logs.@Tôi đang kiểm tra logs CI/CD.
+Can we schedule a design walkthrough?@Chúng ta có thể lên lịch review thiết kế không?
+I’ll test the new backend endpoints.@Tôi sẽ test các endpoint backend mới.
+Please provide the staging server credentials.@Vui lòng cung cấp thông tin đăng nhập server staging.
+I’m debugging the production bug.@Tôi đang debug lỗi production.
+Do you want me to deploy the patch?@Bạn có muốn tôi triển khai bản vá không?
+I’ll review the test coverage report.@Tôi sẽ xem báo cáo mức độ bao phủ test.
+Please check the production logs.@Vui lòng kiểm tra logs production.
+I’m fixing the API bug.@Tôi đang sửa lỗi API.
+Can we have a quick retrospective?@Chúng ta có thể có buổi retrospective nhanh không?
+I’ll update the frontend components.@Tôi sẽ cập nhật các component frontend.
+Please provide the latest server metrics.@Vui lòng cung cấp các chỉ số server mới nhất.
+I’m monitoring the database performance.@Tôi đang giám sát hiệu năng database.
+Do you want me to review the code?@Bạn có muốn tôi review code không?
+I’ll deploy the backend update.@Tôi sẽ triển khai bản cập nhật backend.
+Please confirm the staging environment.@Vui lòng xác nhận môi trường staging.
+I’m testing the new feature integration.@Tôi đang test tích hợp tính năng mới.
+Can we schedule a bug triage session?@Chúng ta có thể lên lịch buổi phân loại lỗi không?
+I’ll check the frontend logs.@Tôi sẽ kiểm tra logs frontend.
+Please update the deployment scripts.@Vui lòng cập nhật script triển khai.
+I’m debugging the API integration.@Tôi đang debug tích hợp API.
+Do you want to pair on the new feature?@Bạn có muốn pair coding tính năng mới không?
+I’ll review the pull requests.@Tôi sẽ review pull request.
+Please validate the backend changes.@Vui lòng xác thực các thay đổi backend.
+I’m fixing the database migration issues.@Tôi đang sửa các vấn đề migration database.
+Can we have a quick sync on the production issue?@Chúng ta có thể trao đổi nhanh về sự cố production không?
+I’ll update the CI/CD configuration.@Tôi sẽ cập nhật cấu hình CI/CD.
+Please provide the API test results.@Vui lòng cung cấp kết quả test API.
+I’m checking the server response times.@Tôi đang kiểm tra thời gian phản hồi server.
+Do you want me to monitor the deployment?@Bạn có muốn tôi giám sát quá trình triển khai không?
+I’ll create a branch for the patch.@Tôi sẽ tạo branch cho bản vá.
+Please review the staging deployment.@Vui lòng xem lại việc triển khai lên staging.
+I’m optimizing the backend code.@Tôi đang tối ưu code backend.
+Can we discuss the frontend issue?@Chúng ta có thể thảo luận về vấn đề frontend không?
+I’ll test the API endpoints.@Tôi sẽ test các endpoint API.
+Please confirm the release schedule.@Vui lòng xác nhận lịch phát hành.
+I’m fixing the CI/CD pipeline bug.@Tôi đang sửa lỗi pipeline CI/CD.
+Do you want me to deploy the update?@Bạn có muốn tôi triển khai bản cập nhật không?
+I’ll review the test cases.@Tôi sẽ xem lại các test case.
+Please provide the system configuration.@Vui lòng cung cấp cấu hình hệ thống.
+I’m debugging the login issue.@Tôi đang debug lỗi đăng nhập.
+Can we schedule a quick team call?@Chúng ta có thể lên lịch gọi nhanh với team không?
+I’ll deploy the patch to production.@Tôi sẽ triển khai bản vá lên production.
+Please validate the new backend endpoints.@Vui lòng xác thực các endpoint backend mới.
+I’m monitoring the frontend performance.@Tôi đang giám sát hiệu năng frontend.
+Do you want me to check the server logs?@Bạn có muốn tôi kiểm tra logs server không?
+I’ll update the project documentation.@Tôi sẽ cập nhật tài liệu dự án.
+Please review the staging environment.@Vui lòng xem lại môi trường staging.
+I’m testing the database queries.@Tôi đang test các câu truy vấn database.
+Can we discuss the production deployment?@Chúng ta có thể thảo luận về triển khai production không?
+I’ll fix the backend bug.@Tôi sẽ sửa lỗi backend.
+Please confirm the server upgrade.@Vui lòng xác nhận nâng cấp server.
+I’m debugging the session timeout.@Tôi đang debug lỗi timeout phiên làm việc.
+Do you want to join the CI/CD review session?@Bạn có muốn tham gia buổi review CI/CD không?
+I’ll create a backup before patching.@Tôi sẽ tạo bản backup trước khi vá lỗi.
+Please validate the system logs.@Vui lòng xác thực logs hệ thống.
+I’m checking the frontend scripts.@Tôi đang kiểm tra các script frontend.
+Can we schedule a quick design meeting?@Chúng ta có thể lên lịch họp thiết kế nhanh không?
+I’ll test the new backend scripts.@Tôi sẽ test các script backend mới.
+Please provide the production credentials.@Vui lòng cung cấp thông tin đăng nhập production.
+I’m fixing the API integration issue.@Tôi đang sửa lỗi tích hợp API.
+Do you want me to review the deployment plan?@Bạn có muốn tôi xem kế hoạch triển khai không?
+I’ll monitor the CI/CD pipeline.@Tôi sẽ giám sát pipeline CI/CD.
+Please check the frontend changes.@Vui lòng kiểm tra các thay đổi frontend.
+I’m updating the feature documentation.@Tôi đang cập nhật tài liệu tính năng.
+Can we have a quick bug triage?@Chúng ta có thể có buổi phân loại lỗi nhanh không?
+I’ll review the database migration.@Tôi sẽ xem lại migration database.
+Please confirm the API endpoints.@Vui lòng xác nhận các endpoint API.
+I’m debugging the production server.@Tôi đang debug server production.
+Do you want me to deploy the patch to staging?@Bạn có muốn tôi triển khai bản vá lên staging không?
+I’ll test the integration scripts.@Tôi sẽ test các script tích hợp.
+Please provide the server logs.@Vui lòng cung cấp logs server.
+I’m fixing the frontend layout bug.@Tôi đang sửa lỗi bố cục frontend.
+Can we schedule a production review meeting?@Chúng ta có thể lên lịch họp review production không?
+I’ll update the backend endpoints.@Tôi sẽ cập nhật các endpoint backend.
+Please validate the deployment scripts.@Vui lòng xác thực script triển khai.
+I’m monitoring the server performance.@Tôi đang giám sát hiệu năng server.
+Do you want me to check the staging environment?@Bạn có muốn tôi kiểm tra môi trường staging không?
+I’ll review the test coverage report.@Tôi sẽ xem báo cáo mức độ bao phủ test.
+Please confirm the feature implementation.@Vui lòng xác nhận việc triển khai tính năng.
+I’m testing the CI/CD pipeline.@Tôi đang test pipeline CI/CD.
+Can we discuss the database issue?@Chúng ta có thể thảo luận về vấn đề database không?
+I’ll deploy the frontend update.@Tôi sẽ triển khai bản cập nhật frontend.
+How's your day going?@Hôm nay công việc/buổi sáng của bạn thế nào?
+What are you working on?@Bạn đang làm gì vậy?
+Do you need any help with that?@Bạn có cần mình hỗ trợ việc đó không?
+Are you available to discuss the project?@Bạn có rảnh để thảo luận về dự án không?
+Could you clarify this requirement?@Bạn có thể làm rõ yêu cầu này không?
+I’m a bit busy right now@ but I’ll check it later.,Tôi đang bận một chút, nhưng sẽ xem sau.
+Sure I can help with that.@Chắc chắn, tôi có thể hỗ trợ việc đó.
+Not too bad@ thanks. And you?,Không tệ, cảm ơn. Còn bạn thì sao?
+Want to grab lunch?@Đi ăn trưa không?
+Let’s catch up later.@Hẹn trò chuyện sau nhé.
+Have a great day!@Chúc bạn một ngày tốt lành?
+I’ve run into an issue with the server.@Tôi gặp vấn đề với server.
+Can we schedule a call to discuss this?@Chúng ta có thể lên lịch gọi để thảo luận không?
+Please review this PR when you get a chance.@Vui lòng xem PR này khi có thời gian.
+The deployment is complete.@Việc triển khai đã xong.
+I’m testing the new feature.@Tôi đang thử nghiệm tính năng mới.
+Do you have any updates on the task?@Bạn có cập nhật gì về task không?
+Could you share the logs?@Bạn có thể chia sẻ logs không?
+I’m running late join the meeting without me.@Tôi hơi muộn, bạn họp trước đi?
+Thanks for the help!@Cảm ơn vì đã hỗ trợ?
+Let’s do a quick sync.@Hãy trao đổi nhanh nhé?
+I’m looking into the bug.@Tôi đang kiểm tra lỗi?
+Can you provide more details?@Bạn có thể cung cấp thêm chi tiết không?
+Do you want me to take care of it?@Bạn có muốn tôi xử lý việc đó không?
+I’ll update the doc accordingly.@Tôi sẽ cập nhật tài liệu theo đó?
+Great job on the release!@Làm tốt việc phát hành?
+Could you check the API response?@Bạn có thể kiểm tra phản hồi API không?
+I need access to the server.@Tôi cần quyền truy cập vào server?
+The task is blocked by a dependency.@Task bị chặn bởi một dependency?
+What’s the ETA on this task?@Thời gian hoàn thành dự kiến của task là bao lâu?
+Do you want to pair on this feature?@Bạn có muốn pair coding tính năng này không?
+I’ve pushed the changes to Git.@Tôi đã push thay đổi lên Git?
+Could you review the code?@Bạn có thể review code không?
+Everything looks fine.@Mọi thứ trông ổn?
+I’m on it.@Tôi đang xử lý?
+Can we have a quick standup?@Chúng ta họp nhanh không?
+The build failed@ checking logs.,Build bị fail, đang kiểm tra logs?
+Do you need me to deploy?@Bạn có cần tôi deploy không?
+I’ll send over the details.@Tôi sẽ gửi chi tiết?
+That sounds good!@Nghe hay đấy?
+Let’s grab coffee later.@Hãy đi cafe sau nhé?
+I’ll follow up tomorrow.@Tôi sẽ theo dõi vào ngày mai?
+I’m working on a hotfix.@Tôi đang làm hotfix?
+Can we reschedule the meeting?@Chúng ta có thể dời lịch họp không?
+Thanks for your patience.@Cảm ơn bạn đã kiên nhẫn?
+Could you update the ticket?@Bạn có thể cập nhật ticket không?
+I’m deploying to staging.@Tôi đang deploy lên staging?
+Do you have a minute to discuss?@Bạn có một phút để thảo luận không?
+I’ll get back to you shortly.@Tôi sẽ trả lời bạn sớm?
+Please let me know your thoughts.@Vui lòng cho tôi biết ý kiến của bạn?
+Looking forward to your feedback.@Mong nhận được phản hồi của bạn?
+I’m on leave today.@Hôm nay tôi nghỉ phép?
+Shall we do a code review?@Chúng ta làm code review nhé?
+I’m debugging the issue.@Tôi đang debug lỗi?
+Do you want to join the call?@Bạn có muốn tham gia cuộc gọi không?
+Thanks for the quick response!@Cảm ơn phản hồi nhanh?
+I’ll document the steps.@Tôi sẽ ghi lại các bước?
+Please confirm once done.@Vui lòng xác nhận khi xong?
+Can you check the server status?@Bạn có thể kiểm tra trạng thái server không?
+I’ve assigned the task to you.@Tôi đã gán task cho bạn?
+Could you merge the PR?@Bạn có thể merge PR không?
+I’ll schedule a follow-up.@Tôi sẽ lên lịch theo dõi?
+Everything is on track.@Mọi thứ đang theo kế hoạch?
+Please share the screenshot.@Vui lòng chia sẻ screenshot?
+Do you want me to test it?@Bạn có muốn tôi test không?
+Let’s sync tomorrow.@Hãy trao đổi ngày mai nhé?
+I’m checking the database.@Tôi đang kiểm tra database?
+The service is down.@Dịch vụ đang ngừng hoạt động?
+I’ll escalate this issue.@Tôi sẽ đưa vấn đề này lên cấp cao hơn?
+Do you want to review together?@Bạn có muốn review cùng nhau không?
+Please update your branch.@Vui lòng cập nhật branch của bạn?
+Thanks for the update!@Cảm ơn vì đã cập nhật?
+I’ll handle the deployment.@Tôi sẽ xử lý việc deploy?
+Can you reproduce the issue?@Bạn có thể tái hiện lỗi không?
+I’ve scheduled the meeting.@Tôi đã lên lịch họp?
+Shall we prioritize this task?@Chúng ta ưu tiên task này nhé?
+I’m running a performance test.@Tôi đang chạy test hiệu năng?
+Do you want me to explain?@Bạn có muốn tôi giải thích không?
+Everything is working as expected.@Mọi thứ hoạt động như mong đợi?
+I’ll merge after review.@Tôi sẽ merge sau khi review?
+Thanks for catching that!@Cảm ơn đã phát hiện lỗi?
+Do you want me to draft the email?@Bạn có muốn tôi soạn email không?
+Let’s have a quick call.@Hãy gọi nhanh nhé?
+I’m updating the documentation.@Tôi đang cập nhật tài liệu?
+Please assign it to me.@Vui lòng gán việc này cho tôi?
+Can we discuss offline?@Chúng ta thảo luận riêng được không?
+I’ve fixed the bug.@Tôi đã sửa lỗi?
+Can you check the server logs?@Bạn có thể kiểm tra logs của server không?
+I need help with this bug.@Tôi cần giúp đỡ với lỗi này.
