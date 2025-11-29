@@ -1,420 +1,699 @@
-How's your day going?@Hôm nay công việc/buổi sáng của bạn thế nào?
-What are you working on?@Bạn đang làm gì vậy?
-Do you need any help with that?@Bạn có cần mình hỗ trợ việc đó không?
-Are you available to discuss the project?@Bạn có rảnh để thảo luận về dự án không?
-Could you clarify this requirement?@Bạn có thể làm rõ yêu cầu này không?
-I’m a bit busy right now but I’ll check it later.@Tôi đang bận một chút nhưng sẽ xem sau.
-Sure I can help with that.@Chắc chắn tôi có thể hỗ trợ việc đó.
-Not too bad thanks. And you?@Không tệ cảm ơn. Còn bạn thì sao?
-Want to grab lunch?@Đi ăn trưa không?
-Let’s catch up later.@Hẹn trò chuyện sau nhé.
-Have a great day!@Chúc bạn một ngày tốt lành?
-I’ve run into an issue with the server.@Tôi gặp vấn đề với server.
-Can we schedule a call to discuss this?@Chúng ta có thể lên lịch gọi để thảo luận không?
-Please review this PR when you get a chance.@Vui lòng xem PR này khi có thời gian.
-The deployment is complete.@Việc triển khai đã xong.
-I’m testing the new feature.@Tôi đang thử nghiệm tính năng mới.
-Do you have any updates on the task?@Bạn có cập nhật gì về task không?
-Could you share the logs?@Bạn có thể chia sẻ logs không?
-I’m running late join the meeting without me.@Tôi hơi muộn bạn họp trước đi?
-Thanks for the help!@Cảm ơn vì đã hỗ trợ?
-Let’s do a quick sync.@Hãy trao đổi nhanh nhé?
-I’m looking into the bug.@Tôi đang kiểm tra lỗi?
-Can you provide more details?@Bạn có thể cung cấp thêm chi tiết không?
-Do you want me to take care of it?@Bạn có muốn tôi xử lý việc đó không?
-I’ll update the doc accordingly.@Tôi sẽ cập nhật tài liệu theo đó?
-Great job on the release!@Làm tốt việc phát hành?
-Could you check the API response?@Bạn có thể kiểm tra phản hồi API không?
-I need access to the server.@Tôi cần quyền truy cập vào server?
-The task is blocked by a dependency.@Task bị chặn bởi một dependency?
-What’s the ETA on this task?@Thời gian hoàn thành dự kiến của task là bao lâu?
-Do you want to pair on this feature?@Bạn có muốn pair coding tính năng này không?
-I’ve pushed the changes to Git.@Tôi đã push thay đổi lên Git?
-Could you review the code?@Bạn có thể review code không?
-Everything looks fine.@Mọi thứ trông ổn?
-I’m on it.@Tôi đang xử lý?
-Can we have a quick standup?@Chúng ta họp nhanh không?
-The build failed checking logs.@Build bị fail đang kiểm tra logs?
-Do you need me to deploy?@Bạn có cần tôi deploy không?
-I’ll send over the details.@Tôi sẽ gửi chi tiết?
-That sounds good!@Nghe hay đấy?
-Let’s grab coffee later.@Hãy đi cafe sau nhé?
-I’ll follow up tomorrow.@Tôi sẽ theo dõi vào ngày mai?
-I’m working on a hotfix.@Tôi đang làm hotfix?
-Can we reschedule the meeting?@Chúng ta có thể dời lịch họp không?
-Thanks for your patience.@Cảm ơn bạn đã kiên nhẫn?
-Could you update the ticket?@Bạn có thể cập nhật ticket không?
-I’m deploying to staging.@Tôi đang deploy lên staging?
-Do you have a minute to discuss?@Bạn có một phút để thảo luận không?
-I’ll get back to you shortly.@Tôi sẽ trả lời bạn sớm?
-Please let me know your thoughts.@Vui lòng cho tôi biết ý kiến của bạn?
-Looking forward to your feedback.@Mong nhận được phản hồi của bạn?
-I’m on leave today.@Hôm nay tôi nghỉ phép?
-Shall we do a code review?@Chúng ta làm code review nhé?
-I’m debugging the issue.@Tôi đang debug lỗi?
-Do you want to join the call?@Bạn có muốn tham gia cuộc gọi không?
-Thanks for the quick response!@Cảm ơn phản hồi nhanh?
-I’ll document the steps.@Tôi sẽ ghi lại các bước?
-Please confirm once done.@Vui lòng xác nhận khi xong?
-Can you check the server status?@Bạn có thể kiểm tra trạng thái server không?
-I’ve assigned the task to you.@Tôi đã gán task cho bạn?
-Could you merge the PR?@Bạn có thể merge PR không?
-I’ll schedule a follow-up.@Tôi sẽ lên lịch theo dõi?
-Everything is on track.@Mọi thứ đang theo kế hoạch?
-Please share the screenshot.@Vui lòng chia sẻ screenshot?
-Do you want me to test it?@Bạn có muốn tôi test không?
-Let’s sync tomorrow.@Hãy trao đổi ngày mai nhé?
-I’m checking the database.@Tôi đang kiểm tra database?
-The service is down.@Dịch vụ đang ngừng hoạt động?
-I’ll escalate this issue.@Tôi sẽ đưa vấn đề này lên cấp cao hơn?
-Do you want to review together?@Bạn có muốn review cùng nhau không?
-Please update your branch.@Vui lòng cập nhật branch của bạn?
-Thanks for the update!@Cảm ơn vì đã cập nhật?
-I’ll handle the deployment.@Tôi sẽ xử lý việc deploy?
-Can you reproduce the issue?@Bạn có thể tái hiện lỗi không?
-I’ve scheduled the meeting.@Tôi đã lên lịch họp?
-Shall we prioritize this task?@Chúng ta ưu tiên task này nhé?
-I’m running a performance test.@Tôi đang chạy test hiệu năng?
-Do you want me to explain?@Bạn có muốn tôi giải thích không?
-Everything is working as expected.@Mọi thứ hoạt động như mong đợi?
-I’ll merge after review.@Tôi sẽ merge sau khi review?
-Thanks for catching that!@Cảm ơn đã phát hiện lỗi?
-Do you want me to draft the email?@Bạn có muốn tôi soạn email không?
-Let’s have a quick call.@Hãy gọi nhanh nhé?
-I’m updating the documentation.@Tôi đang cập nhật tài liệu?
-Please assign it to me.@Vui lòng gán việc này cho tôi?
-Can we discuss offline?@Chúng ta thảo luận riêng được không?
-I’ve fixed the bug.@Tôi đã sửa lỗi?
-Can you check the server logs?@Bạn có thể kiểm tra logs của server không?
-I need help with this bug.@Tôi cần giúp đỡ với lỗi này.
-Have you deployed the latest version?@Bạn đã deploy phiên bản mới nhất chưa?
-Let’s review the design document.@Hãy xem lại tài liệu thiết kế.
-Can you update the ticket status?@Bạn có thể cập nhật trạng thái ticket không?
-I’m testing the new module.@Tôi đang test module mới.
-Please provide the database credentials.@Vui lòng cung cấp thông tin đăng nhập database.
-I’ll handle the merge conflict.@Tôi sẽ xử lý xung đột merge.
-Could you validate this API response?@Bạn có thể xác thực phản hồi API không?
-Do you want to pair on debugging?@Bạn có muốn pair coding để debug không?
-I’m checking the error logs.@Tôi đang kiểm tra logs lỗi.
-Please update the project documentation.@Vui lòng cập nhật tài liệu dự án.
-Have you pushed your branch?@Bạn đã push branch của mình chưa?
-Let’s have a quick team sync.@Hãy có buổi sync nhanh với team.
-Can we schedule a deployment?@Chúng ta có thể lên lịch triển khai không?
-I’ll take care of the hotfix.@Tôi sẽ xử lý hotfix.
-Could you check the server status?@Bạn có thể kiểm tra trạng thái server không?
-The database query is failing.@Câu truy vấn database đang gặp lỗi.
-I’ll create a backup before deployment.@Tôi sẽ tạo bản backup trước khi deploy.
-Please confirm the change request.@Vui lòng xác nhận yêu cầu thay đổi.
-Let’s discuss the code review.@Hãy thảo luận về review code.
-Do you need me to join the meeting?@Bạn có cần tôi tham gia cuộc họp không?
-I’m optimizing the server performance.@Tôi đang tối ưu hiệu năng server.
-Could you test the new feature?@Bạn có thể test tính năng mới không?
-I’m looking into the network issue.@Tôi đang xem xét vấn đề mạng.
-Please review the security patch.@Vui lòng kiểm tra bản vá bảo mật.
-Do you have the latest logs?@Bạn có logs mới nhất không?
-Let’s discuss the deployment plan.@Hãy thảo luận về kế hoạch triển khai.
-I’ll escalate this to the manager.@Tôi sẽ đưa vấn đề này lên quản lý.
-Can we automate this process?@Chúng ta có thể tự động hóa quy trình này không?
-I’m updating the API documentation.@Tôi đang cập nhật tài liệu API.
-Please check the test cases.@Vui lòng kiểm tra các test case.
-I’ve fixed the merge issues.@Tôi đã sửa các xung đột merge.
-Do you want me to deploy this update?@Bạn có muốn tôi triển khai bản cập nhật này không?
-I’m running integration tests.@Tôi đang chạy test tích hợp.
-Please verify the server configuration.@Vui lòng xác minh cấu hình server.
-Can we schedule a sprint planning?@Chúng ta có thể lên lịch lập kế hoạch sprint không?
-I’ll check the system logs.@Tôi sẽ kiểm tra logs hệ thống.
-Could you review this documentation?@Bạn có thể review tài liệu này không?
-I’m debugging the API issue.@Tôi đang debug vấn đề API.
-Please provide the access credentials.@Vui lòng cung cấp thông tin truy cập.
-Do you want to schedule a quick call?@Bạn có muốn lên lịch gọi nhanh không?
-I’ve deployed the changes to staging.@Tôi đã triển khai thay đổi lên môi trường staging.
-Let’s have a design review session.@Hãy có buổi review thiết kế.
-I’m checking the server load.@Tôi đang kiểm tra tải server.
-Please update the project timeline.@Vui lòng cập nhật tiến độ dự án.
-Do you need assistance with testing?@Bạn có cần hỗ trợ test không?
-I’ll monitor the deployment.@Tôi sẽ giám sát việc triển khai.
-Can you reproduce the bug?@Bạn có thể tái hiện lỗi không?
-I’m optimizing the database queries.@Tôi đang tối ưu các câu truy vấn database.
-Please confirm the release schedule.@Vui lòng xác nhận lịch phát hành.
-Let’s discuss the incident report.@Hãy thảo luận về báo cáo sự cố.
-I’ll provide a patch for this issue.@Tôi sẽ cung cấp bản vá cho vấn đề này.
-Do you want me to debug this issue?@Bạn có muốn tôi debug vấn đề này không?
-I’m updating the deployment scripts.@Tôi đang cập nhật script triển khai.
-Can we review the test results?@Chúng ta có thể xem lại kết quả test không?
-I’m checking the API logs.@Tôi đang kiểm tra logs API.
-Please provide the server credentials.@Vui lòng cung cấp thông tin đăng nhập server.
-Do you want me to write the unit tests?@Bạn có muốn tôi viết unit test không?
-I’ve updated the documentation.@Tôi đã cập nhật tài liệu.
-Let’s have a quick bug triage.@Hãy có buổi phân loại lỗi nhanh.
-I’m deploying the patch now.@Tôi đang triển khai bản vá ngay bây giờ.
-Could you validate the database migration?@Bạn có thể xác thực việc migration database không?
-Please confirm the configuration changes.@Vui lòng xác nhận các thay đổi cấu hình.
-I’m investigating the server crash.@Tôi đang điều tra sự cố server.
-Do you want to pair on testing this feature?@Bạn có muốn pair coding để test tính năng này không?
-I’ll check the logs for errors.@Tôi sẽ kiểm tra logs để tìm lỗi.
-Please update the backlog with these tasks.@Vui lòng cập nhật backlog với các task này.
-I’m debugging the deployment script.@Tôi đang debug script triển khai.
-Can we schedule a code walkthrough?@Chúng ta có thể lên lịch review code không?
-I’ve fixed the critical bug.@Tôi đã sửa lỗi nghiêm trọng.
-Do you need help with server configuration?@Bạn có cần hỗ trợ cấu hình server không?
-I’ll create a test environment.@Tôi sẽ tạo môi trường test.
-Please review the design mockups.@Vui lòng xem lại mockup thiết kế.
-I’m checking the network latency.@Tôi đang kiểm tra độ trễ mạng.
-Can we discuss the API integration?@Chúng ta có thể thảo luận về tích hợp API không?
-I’ll monitor the logs during deployment.@Tôi sẽ giám sát logs trong quá trình triển khai.
-Please validate the feature implementation.@Vui lòng xác thực việc triển khai tính năng.
-Do you want to schedule a standup meeting?@Bạn có muốn lên lịch họp standup không?
-I’m optimizing the backend performance.@Tôi đang tối ưu hiệu năng backend.
-Can you test the staging environment?@Bạn có thể test môi trường staging không?
-I’ll deploy the update after testing.@Tôi sẽ triển khai bản cập nhật sau khi test.
-Please confirm the release notes.@Vui lòng xác nhận ghi chú phát hành.
-I’m fixing the database constraints.@Tôi đang sửa các ràng buộc database.
-Do you want me to check the error logs?@Bạn có muốn tôi kiểm tra logs lỗi không?
-I’ll review the pull request.@Tôi sẽ review pull request.
-Please provide the test results.@Vui lòng cung cấp kết quả test.
-I’m configuring the CI/CD pipeline.@Tôi đang cấu hình CI/CD pipeline.
-Can we have a quick sync on the project?@Chúng ta có thể trao đổi nhanh về dự án không?
-I’ve updated the environment variables.@Tôi đã cập nhật biến môi trường.
-Do you want to deploy to production?@Bạn có muốn triển khai lên production không?
-I’ll analyze the performance metrics.@Tôi sẽ phân tích các chỉ số hiệu năng.
-Please review the server logs.@Vui lòng xem lại logs server.
-I’m debugging the frontend issue.@Tôi đang debug vấn đề frontend.
-Can you validate the test scripts?@Bạn có thể xác thực script test không?
-I’ll update the API endpoints.@Tôi sẽ cập nhật các endpoint API.
-Please confirm the staging deployment.@Vui lòng xác nhận triển khai lên staging.
-I’m testing the integration scripts.@Tôi đang test các script tích hợp.
-Do you want to review the error logs together?@Bạn có muốn review logs lỗi cùng nhau không?
-I’ll create a patch branch for the fix.@Tôi sẽ tạo branch patch để sửa lỗi.
-Please check the server response times.@Vui lòng kiểm tra thời gian phản hồi server.
-I’m updating the feature documentation.@Tôi đang cập nhật tài liệu tính năng.
-Can we discuss the release plan?@Chúng ta có thể thảo luận kế hoạch phát hành không?
-I’ll schedule a follow-up meeting.@Tôi sẽ lên lịch họp tiếp theo.
-Please confirm the database migration.@Vui lòng xác nhận việc migration database.
-I’m fixing the backend bug.@Tôi đang sửa lỗi backend.
-Do you want to pair on the deployment?@Bạn có muốn pair coding trong quá trình triển khai không?
-I’ll review the CI/CD configuration.@Tôi sẽ xem lại cấu hình CI/CD.
-Please test the new API endpoints.@Vui lòng test các endpoint API mới.
-I’m monitoring the server performance.@Tôi đang giám sát hiệu năng server.
-Can we discuss the design changes?@Chúng ta có thể thảo luận về thay đổi thiết kế không?
-I’ll check the frontend logs.@Tôi sẽ kiểm tra logs frontend.
-Please confirm the API changes.@Vui lòng xác nhận các thay đổi API.
-I’m testing the database scripts.@Tôi đang test các script database.
-Can we have a design review session?@Chúng ta có thể có buổi review thiết kế không?
-I’ll check the staging environment.@Tôi sẽ kiểm tra môi trường staging.
-Please provide the access tokens.@Vui lòng cung cấp token truy cập.
-I’m debugging the server crash.@Tôi đang debug sự cố server.
-Do you want me to write the deployment script?@Bạn có muốn tôi viết script triển khai không?
-I’ll monitor the API performance.@Tôi sẽ giám sát hiệu năng API.
-Please review the test coverage.@Vui lòng kiểm tra mức độ bao phủ test.
-I’m fixing the frontend bug.@Tôi đang sửa lỗi frontend.
-Can we discuss the CI/CD pipeline?@Chúng ta có thể thảo luận về CI/CD pipeline không?
-I’ll deploy the patch to production.@Tôi sẽ triển khai bản vá lên production.
-Please validate the new feature.@Vui lòng xác thực tính năng mới.
-I’m checking the system logs.@Tôi đang kiểm tra logs hệ thống.
-Do you want to pair on debugging the backend?@Bạn có muốn pair coding để debug backend không?
-I’ll review the pull requests today.@Tôi sẽ review pull request hôm nay.
-Please provide the latest database dump.@Vui lòng cung cấp bản dump database mới nhất.
-I’m optimizing the frontend code.@Tôi đang tối ưu code frontend.
-Can we have a quick sync on the API?@Chúng ta có thể trao đổi nhanh về API không?
-I’ll update the CI/CD scripts.@Tôi sẽ cập nhật script CI/CD.
-Please confirm the deployment schedule.@Vui lòng xác nhận lịch triển khai.
-I’m fixing the login issue.@Tôi đang sửa lỗi đăng nhập.
-Do you want me to test the production environment?@Bạn có muốn tôi test môi trường production không?
-I’ll create a branch for the new feature.@Tôi sẽ tạo branch cho tính năng mới.
-Please check the server logs for errors.@Vui lòng kiểm tra logs server để tìm lỗi.
-I’m updating the API documentation.@Tôi đang cập nhật tài liệu API.
-Can we discuss the test results?@Chúng ta có thể thảo luận kết quả test không?
-I’ll monitor the deployment process.@Tôi sẽ giám sát quá trình triển khai.
-Please validate the frontend changes.@Vui lòng xác thực các thay đổi frontend.
-I’m debugging the database connection issue.@Tôi đang debug lỗi kết nối database.
-Do you want to pair on testing the new feature?@Bạn có muốn pair coding để test tính năng mới không?
-I’ll check the server response time.@Tôi sẽ kiểm tra thời gian phản hồi server.
-Please review the CI/CD configuration.@Vui lòng xem lại cấu hình CI/CD.
-I’m fixing the logout bug.@Tôi đang sửa lỗi đăng xuất.
-Can we schedule a quick team call?@Chúng ta có thể lên lịch gọi nhanh với team không?
-I’ll deploy the update to staging.@Tôi sẽ triển khai bản cập nhật lên staging.
-Please provide the test environment details.@Vui lòng cung cấp thông tin môi trường test.
-I’m monitoring the backend performance.@Tôi đang giám sát hiệu năng backend.
-Do you want me to update the documentation?@Bạn có muốn tôi cập nhật tài liệu không?
-I’ll review the database migration.@Tôi sẽ xem lại migration database.
-Please check the API endpoints.@Vui lòng kiểm tra các endpoint API.
-I’m testing the frontend scripts.@Tôi đang test script frontend.
-Can we discuss the production issue?@Chúng ta có thể thảo luận về sự cố production không?
-I’ll update the feature branch.@Tôi sẽ cập nhật branch tính năng.
-Please confirm the system upgrade.@Vui lòng xác nhận nâng cấp hệ thống.
-I’m fixing the session timeout bug.@Tôi đang sửa lỗi timeout phiên làm việc.
-Do you want to join the debugging session?@Bạn có muốn tham gia buổi debug không?
-I’ll create the backup before deployment.@Tôi sẽ tạo bản backup trước khi triển khai.
-Please validate the performance metrics.@Vui lòng xác thực các chỉ số hiệu năng.
-I’m checking the CI/CD pipeline logs.@Tôi đang kiểm tra logs CI/CD.
-Can we schedule a design walkthrough?@Chúng ta có thể lên lịch review thiết kế không?
-I’ll test the new backend endpoints.@Tôi sẽ test các endpoint backend mới.
-Please provide the staging server credentials.@Vui lòng cung cấp thông tin đăng nhập server staging.
-I’m debugging the production bug.@Tôi đang debug lỗi production.
-Do you want me to deploy the patch?@Bạn có muốn tôi triển khai bản vá không?
-I’ll review the test coverage report.@Tôi sẽ xem báo cáo mức độ bao phủ test.
-Please check the production logs.@Vui lòng kiểm tra logs production.
-I’m fixing the API bug.@Tôi đang sửa lỗi API.
-Can we have a quick retrospective?@Chúng ta có thể có buổi retrospective nhanh không?
-I’ll update the frontend components.@Tôi sẽ cập nhật các component frontend.
-Please provide the latest server metrics.@Vui lòng cung cấp các chỉ số server mới nhất.
-I’m monitoring the database performance.@Tôi đang giám sát hiệu năng database.
-Do you want me to review the code?@Bạn có muốn tôi review code không?
-I’ll deploy the backend update.@Tôi sẽ triển khai bản cập nhật backend.
-Please confirm the staging environment.@Vui lòng xác nhận môi trường staging.
-I’m testing the new feature integration.@Tôi đang test tích hợp tính năng mới.
-Can we schedule a bug triage session?@Chúng ta có thể lên lịch buổi phân loại lỗi không?
-I’ll check the frontend logs.@Tôi sẽ kiểm tra logs frontend.
-Please update the deployment scripts.@Vui lòng cập nhật script triển khai.
-I’m debugging the API integration.@Tôi đang debug tích hợp API.
-Do you want to pair on the new feature?@Bạn có muốn pair coding tính năng mới không?
-I’ll review the pull requests.@Tôi sẽ review pull request.
-Please validate the backend changes.@Vui lòng xác thực các thay đổi backend.
-I’m fixing the database migration issues.@Tôi đang sửa các vấn đề migration database.
-Can we have a quick sync on the production issue?@Chúng ta có thể trao đổi nhanh về sự cố production không?
-I’ll update the CI/CD configuration.@Tôi sẽ cập nhật cấu hình CI/CD.
-Please provide the API test results.@Vui lòng cung cấp kết quả test API.
-I’m checking the server response times.@Tôi đang kiểm tra thời gian phản hồi server.
-Do you want me to monitor the deployment?@Bạn có muốn tôi giám sát quá trình triển khai không?
-I’ll create a branch for the patch.@Tôi sẽ tạo branch cho bản vá.
-Please review the staging deployment.@Vui lòng xem lại việc triển khai lên staging.
-I’m optimizing the backend code.@Tôi đang tối ưu code backend.
-Can we discuss the frontend issue?@Chúng ta có thể thảo luận về vấn đề frontend không?
-I’ll test the API endpoints.@Tôi sẽ test các endpoint API.
-Please confirm the release schedule.@Vui lòng xác nhận lịch phát hành.
-I’m fixing the CI/CD pipeline bug.@Tôi đang sửa lỗi pipeline CI/CD.
-Do you want me to deploy the update?@Bạn có muốn tôi triển khai bản cập nhật không?
-I’ll review the test cases.@Tôi sẽ xem lại các test case.
-Please provide the system configuration.@Vui lòng cung cấp cấu hình hệ thống.
-I’m debugging the login issue.@Tôi đang debug lỗi đăng nhập.
-Can we schedule a quick team call?@Chúng ta có thể lên lịch gọi nhanh với team không?
-I’ll deploy the patch to production.@Tôi sẽ triển khai bản vá lên production.
-Please validate the new backend endpoints.@Vui lòng xác thực các endpoint backend mới.
-I’m monitoring the frontend performance.@Tôi đang giám sát hiệu năng frontend.
-Do you want me to check the server logs?@Bạn có muốn tôi kiểm tra logs server không?
-I’ll update the project documentation.@Tôi sẽ cập nhật tài liệu dự án.
-Please review the staging environment.@Vui lòng xem lại môi trường staging.
-I’m testing the database queries.@Tôi đang test các câu truy vấn database.
-Can we discuss the production deployment?@Chúng ta có thể thảo luận về triển khai production không?
-I’ll fix the backend bug.@Tôi sẽ sửa lỗi backend.
-Please confirm the server upgrade.@Vui lòng xác nhận nâng cấp server.
-I’m debugging the session timeout.@Tôi đang debug lỗi timeout phiên làm việc.
-Do you want to join the CI/CD review session?@Bạn có muốn tham gia buổi review CI/CD không?
-I’ll create a backup before patching.@Tôi sẽ tạo bản backup trước khi vá lỗi.
-Please validate the system logs.@Vui lòng xác thực logs hệ thống.
-I’m checking the frontend scripts.@Tôi đang kiểm tra các script frontend.
-Can we schedule a quick design meeting?@Chúng ta có thể lên lịch họp thiết kế nhanh không?
-I’ll test the new backend scripts.@Tôi sẽ test các script backend mới.
-Please provide the production credentials.@Vui lòng cung cấp thông tin đăng nhập production.
-I’m fixing the API integration issue.@Tôi đang sửa lỗi tích hợp API.
-Do you want me to review the deployment plan?@Bạn có muốn tôi xem kế hoạch triển khai không?
-I’ll monitor the CI/CD pipeline.@Tôi sẽ giám sát pipeline CI/CD.
-Please check the frontend changes.@Vui lòng kiểm tra các thay đổi frontend.
-I’m updating the feature documentation.@Tôi đang cập nhật tài liệu tính năng.
-Can we have a quick bug triage?@Chúng ta có thể có buổi phân loại lỗi nhanh không?
-I’ll review the database migration.@Tôi sẽ xem lại migration database.
-Please confirm the API endpoints.@Vui lòng xác nhận các endpoint API.
-I’m debugging the production server.@Tôi đang debug server production.
-Do you want me to deploy the patch to staging?@Bạn có muốn tôi triển khai bản vá lên staging không?
-I’ll test the integration scripts.@Tôi sẽ test các script tích hợp.
-Please provide the server logs.@Vui lòng cung cấp logs server.
-I’m fixing the frontend layout bug.@Tôi đang sửa lỗi bố cục frontend.
-Can we schedule a production review meeting?@Chúng ta có thể lên lịch họp review production không?
-I’ll update the backend endpoints.@Tôi sẽ cập nhật các endpoint backend.
-Please validate the deployment scripts.@Vui lòng xác thực script triển khai.
-I’m monitoring the server performance.@Tôi đang giám sát hiệu năng server.
-Do you want me to check the staging environment?@Bạn có muốn tôi kiểm tra môi trường staging không?
-I’ll review the test coverage report.@Tôi sẽ xem báo cáo mức độ bao phủ test.
-Please confirm the feature implementation.@Vui lòng xác nhận việc triển khai tính năng.
-I’m testing the CI/CD pipeline.@Tôi đang test pipeline CI/CD.
-Can we discuss the database issue?@Chúng ta có thể thảo luận về vấn đề database không?
-I’ll deploy the frontend update.@Tôi sẽ triển khai bản cập nhật frontend.
-How's your day going?@Hôm nay công việc/buổi sáng của bạn thế nào?
-What are you working on?@Bạn đang làm gì vậy?
-Do you need any help with that?@Bạn có cần mình hỗ trợ việc đó không?
-Are you available to discuss the project?@Bạn có rảnh để thảo luận về dự án không?
-Could you clarify this requirement?@Bạn có thể làm rõ yêu cầu này không?
-I’m a bit busy right now@ but I’ll check it later.,Tôi đang bận một chút, nhưng sẽ xem sau.
-Sure I can help with that.@Chắc chắn, tôi có thể hỗ trợ việc đó.
-Not too bad@ thanks. And you?,Không tệ, cảm ơn. Còn bạn thì sao?
-Want to grab lunch?@Đi ăn trưa không?
-Let’s catch up later.@Hẹn trò chuyện sau nhé.
-Have a great day!@Chúc bạn một ngày tốt lành?
-I’ve run into an issue with the server.@Tôi gặp vấn đề với server.
-Can we schedule a call to discuss this?@Chúng ta có thể lên lịch gọi để thảo luận không?
-Please review this PR when you get a chance.@Vui lòng xem PR này khi có thời gian.
-The deployment is complete.@Việc triển khai đã xong.
-I’m testing the new feature.@Tôi đang thử nghiệm tính năng mới.
-Do you have any updates on the task?@Bạn có cập nhật gì về task không?
-Could you share the logs?@Bạn có thể chia sẻ logs không?
-I’m running late join the meeting without me.@Tôi hơi muộn, bạn họp trước đi?
-Thanks for the help!@Cảm ơn vì đã hỗ trợ?
-Let’s do a quick sync.@Hãy trao đổi nhanh nhé?
-I’m looking into the bug.@Tôi đang kiểm tra lỗi?
-Can you provide more details?@Bạn có thể cung cấp thêm chi tiết không?
-Do you want me to take care of it?@Bạn có muốn tôi xử lý việc đó không?
-I’ll update the doc accordingly.@Tôi sẽ cập nhật tài liệu theo đó?
-Great job on the release!@Làm tốt việc phát hành?
-Could you check the API response?@Bạn có thể kiểm tra phản hồi API không?
-I need access to the server.@Tôi cần quyền truy cập vào server?
-The task is blocked by a dependency.@Task bị chặn bởi một dependency?
-What’s the ETA on this task?@Thời gian hoàn thành dự kiến của task là bao lâu?
-Do you want to pair on this feature?@Bạn có muốn pair coding tính năng này không?
-I’ve pushed the changes to Git.@Tôi đã push thay đổi lên Git?
-Could you review the code?@Bạn có thể review code không?
-Everything looks fine.@Mọi thứ trông ổn?
-I’m on it.@Tôi đang xử lý?
-Can we have a quick standup?@Chúng ta họp nhanh không?
-The build failed@ checking logs.,Build bị fail, đang kiểm tra logs?
-Do you need me to deploy?@Bạn có cần tôi deploy không?
-I’ll send over the details.@Tôi sẽ gửi chi tiết?
-That sounds good!@Nghe hay đấy?
-Let’s grab coffee later.@Hãy đi cafe sau nhé?
-I’ll follow up tomorrow.@Tôi sẽ theo dõi vào ngày mai?
-I’m working on a hotfix.@Tôi đang làm hotfix?
-Can we reschedule the meeting?@Chúng ta có thể dời lịch họp không?
-Thanks for your patience.@Cảm ơn bạn đã kiên nhẫn?
-Could you update the ticket?@Bạn có thể cập nhật ticket không?
-I’m deploying to staging.@Tôi đang deploy lên staging?
-Do you have a minute to discuss?@Bạn có một phút để thảo luận không?
-I’ll get back to you shortly.@Tôi sẽ trả lời bạn sớm?
-Please let me know your thoughts.@Vui lòng cho tôi biết ý kiến của bạn?
-Looking forward to your feedback.@Mong nhận được phản hồi của bạn?
-I’m on leave today.@Hôm nay tôi nghỉ phép?
-Shall we do a code review?@Chúng ta làm code review nhé?
-I’m debugging the issue.@Tôi đang debug lỗi?
-Do you want to join the call?@Bạn có muốn tham gia cuộc gọi không?
-Thanks for the quick response!@Cảm ơn phản hồi nhanh?
-I’ll document the steps.@Tôi sẽ ghi lại các bước?
-Please confirm once done.@Vui lòng xác nhận khi xong?
-Can you check the server status?@Bạn có thể kiểm tra trạng thái server không?
-I’ve assigned the task to you.@Tôi đã gán task cho bạn?
-Could you merge the PR?@Bạn có thể merge PR không?
-I’ll schedule a follow-up.@Tôi sẽ lên lịch theo dõi?
-Everything is on track.@Mọi thứ đang theo kế hoạch?
-Please share the screenshot.@Vui lòng chia sẻ screenshot?
-Do you want me to test it?@Bạn có muốn tôi test không?
-Let’s sync tomorrow.@Hãy trao đổi ngày mai nhé?
-I’m checking the database.@Tôi đang kiểm tra database?
-The service is down.@Dịch vụ đang ngừng hoạt động?
-I’ll escalate this issue.@Tôi sẽ đưa vấn đề này lên cấp cao hơn?
-Do you want to review together?@Bạn có muốn review cùng nhau không?
-Please update your branch.@Vui lòng cập nhật branch của bạn?
-Thanks for the update!@Cảm ơn vì đã cập nhật?
-I’ll handle the deployment.@Tôi sẽ xử lý việc deploy?
-Can you reproduce the issue?@Bạn có thể tái hiện lỗi không?
-I’ve scheduled the meeting.@Tôi đã lên lịch họp?
-Shall we prioritize this task?@Chúng ta ưu tiên task này nhé?
-I’m running a performance test.@Tôi đang chạy test hiệu năng?
-Do you want me to explain?@Bạn có muốn tôi giải thích không?
-Everything is working as expected.@Mọi thứ hoạt động như mong đợi?
-I’ll merge after review.@Tôi sẽ merge sau khi review?
-Thanks for catching that!@Cảm ơn đã phát hiện lỗi?
-Do you want me to draft the email?@Bạn có muốn tôi soạn email không?
-Let’s have a quick call.@Hãy gọi nhanh nhé?
-I’m updating the documentation.@Tôi đang cập nhật tài liệu?
-Please assign it to me.@Vui lòng gán việc này cho tôi?
-Can we discuss offline?@Chúng ta thảo luận riêng được không?
-I’ve fixed the bug.@Tôi đã sửa lỗi?
-Can you check the server logs?@Bạn có thể kiểm tra logs của server không?
-I need help with this bug.@Tôi cần giúp đỡ với lỗi này.
+GUI: Giao diện người dùng đồ họa@@I’m designing the GUI to make the user workflow more intuitive.
+troubleshooting: xử lý sự cố@@Have you completed the troubleshooting steps for this error?
+user issue: vấn đề của người dùng@@We quickly identified the user issue and provided a temporary fix.
+automated process: quy trình tự động@@This automated process saves us several hours every day.
+unit testing: kiểm thử đơn vị@@Are you planning to write unit testing before merging the code?
+potential solution: giải pháp tiềm năng@@The team proposed a potential solution to reduce load time.
+engineering personnel: nhân sự kỹ thuật@@Engineering personnel will review the system architecture this afternoon.
+technical personnel: nhân sự kỹ thuật@@Why haven’t the technical personnel updated the deployment status yet?
+program intent: mục đích của chương trình@@I checked the source code to confirm the program intent.
+trial run: chạy thử@@We performed a trial run to ensure the workflow behaves as expected.
+software update: cập nhật phần mềm@@The software update includes critical security patches.
+SRS: tài liệu yêu cầu phần mềm@@Have you finalized the SRS for the new module?
+design document: tài liệu thiết kế@@I’m preparing the design document for tomorrow’s review meeting.
+related system: hệ thống liên quan@@This change may affect the related system running in production.
+application issue: vấn đề ứng dụng@@We identified the application issue after analyzing the logs.
+efficient performance: hiệu năng hiệu quả@@Efficient performance is our main goal for this release.
+ad-hoc duty: nhiệm vụ phát sinh@@I handled an ad-hoc duty when the client requested a quick fix.
+functional programming: lập trình hàm@@Are you familiar with functional programming paradigms?
+CQRS: tách truy vấn và ghi lệnh@@We applied the CQRS pattern to improve scalability.
+MongoDB Charts: biểu đồ MongoDB@@I created a dashboard using MongoDB Charts for real-time monitoring.
+RESTful web service: dịch vụ web RESTful@@This feature depends on a RESTful web service exposed by another team.
+problem-solving skill: kỹ năng giải quyết vấn đề@@Strong problem-solving skill is essential for this role.
+self-starter: người chủ động@@As a self-starter, I initiated the automation task without being asked.
+SOA: kiến trúc hướng dịch vụ@@Does the legacy system still follow the SOA architecture?
+microservice: dịch vụ vi mô@@We are migrating the monolith into a microservice architecture.
+Scrum framework: khung làm việc Scrum@@Have you worked with the Scrum framework before?
+AWS: Amazon Web Services@@I deployed the service to AWS using Infrastructure-as-Code.
+Lambda: hàm Lambda@@This workflow triggers an AWS Lambda to process events asynchronously.
+IoT Core: lõi Internet vạn vật@@IoT Core handles device communication securely.
+client-side: phía khách@@I’m optimizing the client-side logic to reduce rendering time.
+server-side: phía máy chủ@@The server-side module failed due to a missing environment variable.
+infrastructure architecture: kiến trúc hạ tầng@@Who is responsible for reviewing the infrastructure architecture?
+non-functional requirement: yêu cầu phi chức năng@@Performance is a key non-functional requirement for this project.
+usability: khả năng sử dụng@@We improved usability based on user feedback from the pilot test.
+technical documentation: tài liệu kỹ thuật@@Have you updated the technical documentation after the refactor?
+robot management system: hệ thống quản lý robot@@The robot management system tracks each agent’s status in real time.
+robot agent: tác tử robot@@A robot agent automatically executes the assigned tasks.
+mockup: bản mẫu giao diện@@I created a mockup to demonstrate the new interface.
+workflow: quy trình làm việc@@This workflow involves multiple approval steps.
+GCP: Google Cloud Platform@@We migrated the analytics service to GCP last quarter.
+Docker: Docker@@I containerized the application using Docker.
+CI/CD: tích hợp liên tục / triển khai liên tục@@Does the CI/CD pipeline run security scans by default?
+OOP design: thiết kế hướng đối tượng@@Good OOP design helps maintain long-term scalability.
+programming language: ngôn ngữ lập trình@@Which programming language are you most comfortable with?
+Linux: Linux@@I used Linux commands to diagnose the network issue.
+communication skill: kỹ năng giao tiếp@@Strong communication skill helps align expectations with stakeholders.
+quantity: số lượng@@The system logs an unexpected quantity of requests during peak hours.
+system operation: vận hành hệ thống@@System operation resumed after the patch was applied.
+requirement specification: đặc tả yêu cầu@@I reviewed the requirement specification before starting development.
+documentation: tài liệu@@Why hasn’t the documentation been updated after deployment?
+solution: giải pháp@@We delivered a solution that meets the client’s expectations.
+integration: tích hợp@@The integration between services failed due to mismatched data types.
+issue: vấn đề@@Did you open a ticket for this issue?
+root cause: nguyên nhân gốc@@We found the root cause after checking the distributed traces.
+work request: yêu cầu công việc@@I submitted a work request for additional resources.
+direct manager: quản lý trực tiếp@@My direct manager approved the implementation plan.
+Java: Java@@Are you able to implement this module using Java?
+NoSQL: cơ sở dữ liệu phi quan hệ@@We switched to a NoSQL database to handle unstructured data.
+data structure: cấu trúc dữ liệu@@Choosing the right data structure significantly improves performance.
+algorithm: thuật toán@@This algorithm reduces computation time by half.
+REST API: API REST@@The mobile app communicates with our backend through a REST API.
+third-party integration: tích hợp bên thứ ba@@Third-party integration failed due to invalid credentials.
+testing framework: bộ khung kiểm thử@@Which testing framework do you prefer for automation?
+automation: tự động hóa@@We increased test coverage by adding automation scripts.
+caching technology: công nghệ lưu đệm@@Implementing caching technology drastically reduced response time.
+Redis: Redis@@Redis stores session data for faster retrieval.
+message broker: bộ trung gian thông điệp@@The message broker handles high-volume asynchronous events.
+Kafka: Kafka@@Does Kafka support your required throughput?
+security: bảo mật@@Security is our top priority for any financial application.
+FinTech: công nghệ tài chính@@I have experience developing systems in the FinTech domain.
+banking: ngành ngân hàng@@This feature must comply with banking regulations.
+payment industry: ngành thanh toán@@Are you familiar with compliance requirements in the payment industry?
+WebSocket: WebSocket@@The dashboard uses WebSocket for real-time updates.
+VueJS: VueJS@@I built the admin interface with VueJS.
+NestJS: NestJS@@Our backend service is implemented using NestJS.
+Angular: Angular@@Does the team plan to migrate from AngularJS to Angular 17?
+functional pattern: mẫu thiết kế hàm@@This module applies a functional pattern to avoid side effects.
+technical analytical skill: kỹ năng phân tích kỹ thuật@@Strong technical analytical skill helps solve complex problems.
+container: vùng chứa / container@@I packaged the microservice inside a lightweight container.
+container orchestration: điều phối container@@Container orchestration ensures high availability across clusters.
+ensure: đảm bảo@@We ensure that every deployment meets security standards.
+optimal: tối ưu@@The goal is to achieve optimal system performance.
+performance: hiệu năng@@Performance degraded after the latest patch.
+components: các thành phần@@These components interact through REST APIs.
+collaborate: hợp tác@@We collaborate closely with the QA team during release cycles.
+closely: chặt chẽ@@The team works closely to finalize the integration.
+deliver: bàn giao / cung cấp@@Can we deliver the feature before Friday?
+solutions: các giải pháp@@The architect proposed several solutions for scalability.
+centric: lấy … làm trung tâm@@Our design is user-centric and easy to navigate.
+involves: bao gồm / liên quan đến@@The process involves multiple validation steps.
+improving: cải thiện@@I’m improving the query to reduce execution time.
+existing: hiện tại / có sẵn@@We reused some existing modules to speed up development.
+efficient: hiệu quả@@The new caching layer is far more efficient.
+adhering: tuân thủ@@We are adhering to the company’s coding standards.
+practices: thực hành / thông lệ@@Good engineering practices help maintain code quality.
+proficiency: sự thành thạo@@Proficiency in debugging is required for this role.
+Experience: kinh nghiệm@@Do you have experience working with distributed systems?
+attention: sự chú ý@@Attention to detail prevents errors in production.
+multidisciplinary: đa ngành@@We work in a multidisciplinary team with designers and engineers.
+scalable: có thể mở rộng@@The architecture must be scalable for future growth.
+accuracy: độ chính xác@@We improved calculation accuracy by adjusting the rounding logic.
+candidate: ứng viên@@Is this candidate suitable for the backend developer position?
+collaborating: hợp tác@@I’m collaborating with the QA team to verify the new workflow.
+assisted: hỗ trợ@@I assisted the team in debugging the production issue.
+participate: tham gia@@Are you able to participate in tomorrow’s sprint planning?
+enterprise: doanh nghiệp@@The enterprise system requires strict access control.
+integrate: tích hợp@@We need to integrate this module with the payment gateway.
+responsive: phản hồi nhanh / giao diện đáp ứng@@The UI must remain responsive under heavy load.
+modern: hiện đại@@The team is migrating the old interface to a modern design.
+compatibility: khả năng tương thích@@Have you checked compatibility with older browsers?
+features: tính năng@@This release introduces several new features for end users.
+quotes: báo giá@@The service fetches real-time market quotes from an external API.
+streaming: truyền phát@@We're using streaming data to update the dashboard instantly.
+trades: giao dịch@@The system processes thousands of trades per minute.
+handle: xử lý@@Can this service handle concurrent requests efficiently?
+rounding: làm tròn@@We updated the rounding method to meet business rules.
+rules: quy tắc@@These rules must be applied consistently across all services.
+precision: độ chính xác (số học)@@Precision is critical when calculating currency exchange rates.
+mult: nhân (multiplication)@@The function performs a mult operation to compute total value.
+currency: tiền tệ@@Which currency should we use for the final settlement?
+involved: liên quan@@I was involved in designing the initial system architecture.
+phase: giai đoạn@@This task belongs to the second phase of the project.
+estimation: ước lượng@@Have you completed the time estimation for this feature?
+stability: độ ổn định@@The patch significantly improved system stability.
+relevant: phù hợp / liên quan@@Please attach any relevant documents for the review.
+interactive: tương tác@@The platform provides an interactive interface for traders.
+infrastructure: cơ sở hạ tầng@@Infrastructure changes require approval from the DevOps team.
+architecture: kiến trúc@@The architecture must support future scalability.
+framework: khung làm việc@@Which framework do you prefer for building microservices?
+library: thư viện@@This library helps simplify data parsing.
+module: mô-đun@@The payment module failed due to invalid configuration.
+component: thành phần@@This component handles user authentication.
+service: dịch vụ@@The service crashed after receiving malformed input.
+API: giao diện lập trình ứng dụng@@Does the API return the expected response format?
+SDK: bộ phát triển phần mềm@@The SDK simplifies integration with our platform.
+function: hàm@@This function validates user credentials.
+class: lớp@@I refactored the class to make it more reusable.
+object: đối tượng@@The object contains all necessary transaction details.
+constructor: hàm khởi tạo@@The constructor initializes default values for the model.
+interface: giao diện@@Are you planning to expose this interface to other teams?
+implementation: triển khai@@We reviewed the implementation to ensure it meets requirements.
+pattern: mẫu thiết kế@@The repository pattern helps organize data access logic.
+dependency: phụ thuộc@@A missing dependency caused the build to fail.
+refactor: tái cấu trúc mã@@I need to refactor this code to improve readability.
+build: biên dịch / dựng@@The build is failing due to a missing environment variable.
+release: phát hành@@When is the official release scheduled?
+version: phiên bản@@Which version of the library are you using?
+patch: bản vá@@The patch addresses a high-priority vulnerability.
+bug: lỗi@@We fixed a bug related to session handling.
+feature: tính năng@@This feature allows users to manage their subscriptions.
+specification: đặc tả@@The specification clearly defines expected behavior.
+requirement: yêu cầu@@Did the client update the requirement for this flow?
+test: kiểm thử@@We need to test all edge cases before deployment.
+unit test: kiểm thử đơn vị@@I added a unit test to cover the validation logic.
+integration test: kiểm thử tích hợp@@Integration test results show a mismatch in API schemas.
+pipeline: quy trình tự động hóa (pipeline)@@The pipeline automatically deploys to staging after a successful build.
+deployment: triển khai@@Deployment was delayed due to network issues.
+rollback: quay lại phiên bản trước@@We had to perform a rollback after encountering data corruption.
+sandbox: môi trường thử nghiệm@@Please test this feature in the sandbox environment first.
+runtime: môi trường thực thi@@The runtime error occurs only under high load.
+compiler: trình biên dịch@@The compiler throws an error for invalid syntax.
+interpreter: trình thông dịch@@This language uses an interpreter instead of a compiler.
+garbage collection: thu gom rác@@Garbage collection reduced memory usage significantly.
+memory leak: rò rỉ bộ nhớ@@We detected a memory leak in the background service.
+thread: luồng@@The process spawns multiple threads to handle requests.
+process: tiến trình@@The process terminated unexpectedly during the update.
+asynchronous: bất đồng bộ@@This function uses asynchronous processing for better performance.
+synchronous: đồng bộ@@Do we need a synchronous version of this API?
+callback: hàm gọi lại@@The callback executes after the operation completes.
+promise: lời hứa (cơ chế async)@@The promise resolves once the data is fetched.
+exception: ngoại lệ@@How do you handle exceptions in this module?
+logging: ghi nhật ký@@Logging helps us trace the flow of execution.
+monitoring: giám sát@@Monitoring tools detected unusual CPU spikes.
+profiling: phân tích hiệu năng@@I’m profiling the system to find performance bottlenecks.
+code review: đánh giá mã nguồn@@Have you scheduled the code review for this change?
+technical debt: nợ kỹ thuật@@We need time to reduce long-standing technical debt.
+branching strategy: chiến lược phân nhánh@@What branching strategy should we follow for this project?
+design: thiết kế@@I’m refining the design to improve usability.
+mock: mô phỏng@@We used a mock object for testing the API flow.
+stub: đoạn mã giả@@The service returns stub data during development.
+stubbed service: dịch vụ giả lập@@The stubbed service simulates external API responses.
+contract: hợp đồng / giao kèo@@The API contract defines the input/output structure.
+contract testing: kiểm thử hợp đồng@@We added contract testing to prevent schema-breaking changes.
+mocking: giả lập (mock)@@Mocking helps isolate components during testing.
+session: phiên làm việc@@The session expires after 30 minutes of inactivity.
+state: trạng thái@@The system keeps track of user state across requests.
+stateless: không trạng thái@@This service is stateless and easy to scale.
+stateful: có trạng thái@@Stateful services require careful management of session data.
+repository pattern: mẫu thiết kế kho lưu trữ@@We used the repository pattern to separate business logic from data access.
+service mesh: lưới dịch vụ@@The service mesh manages communication between microservices.
+monolith: kiến trúc nguyên khối@@The old monolith is difficult to maintain.
+scalability: khả năng mở rộng@@Scalability is crucial for handling traffic spikes.
+maintainability: khả năng bảo trì@@Good coding practices improve system maintainability.
+extensibility: khả năng mở rộng (tính năng)@@The architecture supports extensibility for future features.
+portability: khả năng di chuyển@@This design improves portability across cloud providers.
+backward compatibility: tương thích ngược@@We ensured backward compatibility with older clients.
+forward compatibility: tương thích xuôi@@The schema supports forward compatibility for upcoming features.
+load testing: kiểm thử tải@@Have you run load testing on the new API?
+stress testing: kiểm thử căng thẳng@@Stress testing revealed performance degradation at peak load.
+throughput: thông lượng@@Throughput increased after optimizing the database queries.
+latency: độ trễ@@The new caching layer significantly reduced API latency.
+concurrency: đồng thời@@How do you manage concurrency when multiple users update the same record?
+parallelism: song song@@Parallelism improved processing speed for large datasets.
+dependency injection: tiêm phụ thuộc@@We used dependency injection to simplify testing and configuration.
+serialization: tuần tự hóa@@This object requires serialization before being sent over the network.
+deserialization: giải tuần tự hóa@@Deserialization failed due to an unexpected field.
+encryption: mã hóa@@All sensitive data must be stored with strong encryption.
+serialization format: định dạng tuần tự hóa@@Which serialization format should we use for the messaging system?
+binary protocol: giao thức nhị phân@@The binary protocol offers faster performance than JSON.
+text protocol: giao thức văn bản@@A text protocol is easier to debug during development.
+protobuf: Protobuf@@We switched to protobuf to reduce payload size.
+thrift: Thrift@@Does the legacy service still use Apache Thrift?
+message queue: hàng đợi thông điệp@@The message queue helps handle asynchronous events reliably.
+event: sự kiện@@Each event triggers a workflow in the automation engine.
+event-driven: hướng sự kiện@@The system follows an event-driven architecture for better scalability.
+observer: người quan sát / mẫu thiết kế Observer@@We used the observer pattern to notify components about state changes.
+singleton: mẫu thiết kế Singleton@@The logger is implemented as a singleton instance.
+factory: mẫu thiết kế Factory@@The factory pattern creates objects based on configuration.
+adapter: mẫu thiết kế Adapter@@I added an adapter to make the library compatible with our interface.
+decorator: mẫu thiết kế Decorator@@The decorator adds logging functionality without modifying the original class.
+facade: mẫu thiết kế Facade@@The facade provides a simplified API for complex operations.
+proxy: mẫu thiết kế Proxy@@The proxy controls access to the main service.
+strategy: mẫu thiết kế Strategy@@Which strategy pattern implementation fits this scenario?
+visitor: mẫu thiết kế Visitor@@The visitor pattern allows adding operations without changing object structure.
+iterator: mẫu thiết kế Iterator@@The iterator makes it easier to navigate through the collection.
+builder: mẫu thiết kế Builder@@We used the builder pattern to construct complex objects step by step.
+command: mẫu thiết kế Command@@The command pattern encapsulates an action as an object.
+mediator: mẫu thiết kế Mediator@@The mediator coordinates communication between components.
+chain of responsibility: chuỗi trách nhiệm@@The chain of responsibility processes requests in sequence.
+architecture module: mô-đun kiến trúc@@This architecture module defines core business logic.
+framework service: dịch vụ của framework@@The framework service handles most boilerplate tasks.
+library service: dịch vụ của thư viện@@The library service provides reusable utility functions.
+module service: dịch vụ mô-đun@@The module service powers the authentication flow.
+component service: dịch vụ thành phần@@Each component service communicates through REST APIs.
+service service: dịch vụ của service@@A dedicated service service manages service-to-service discovery.
+API service: dịch vụ API@@The API service exposes endpoints for external clients.
+SDK service: dịch vụ SDK@@The SDK service helps developers integrate features quickly.
+algorithm service: dịch vụ thuật toán@@The algorithm service calculates optimized routes.
+function service: dịch vụ hàm@@The function service contains serverless compute logic.
+class service: dịch vụ lớp@@The class service organizes object-level operations.
+object service: dịch vụ đối tượng@@The object service manages persistent domain objects.
+HTML: HTML@@I updated the HTML structure to improve accessibility.
+CSS: CSS@@The CSS rules ensure consistent styling across pages.
+JavaScript: JavaScript@@Does this JavaScript function handle all edge cases?
+DOM: mô hình đối tượng tài liệu@@We manipulated the DOM to dynamically update content.
+element: phần tử@@Please add a new element to display the notification.
+attribute: thuộc tính@@The attribute defines the behavior of this component.
+selector: bộ chọn@@This selector targets all input fields in the form.
+stylesheet: bảng kiểu@@The stylesheet was optimized to reduce file size.
+responsive design: thiết kế đáp ứng@@Responsive design ensures usability across devices.
+grid: lưới@@The layout was implemented using the CSS grid system.
+flexbox: flexbox@@Flexbox makes alignment easier for dynamic content.
+viewport: vùng xem@@Have you set the correct viewport meta tag for mobile?
+meta tag: thẻ meta@@This meta tag improves SEO and rendering behavior.
+header: phần đầu trang@@The header includes navigation and branding.
+footer: phần chân trang@@The footer displays contact information and links.
+navigation: điều hướng@@We redesigned the navigation to be more intuitive.
+sidebar: thanh bên@@The sidebar collapses automatically on small screens.
+route: tuyến đường@@Each route corresponds to a page in the application.
+routing: định tuyến@@The routing module handles navigation logic.
+SPA: ứng dụng một trang@@The app was converted into an SPA for faster interaction.
+MPA: ứng dụng nhiều trang@@The MPA architecture suits content-heavy applications.
+SSR: kết xuất phía server@@We use SSR to improve performance on slow devices.
+CSR: kết xuất phía client@@CSR renders content directly in the browser.
+hydration: khôi phục trạng thái giao diện@@Hydration attaches event listeners to server-rendered HTML.
+static site: trang tĩnh@@A static site is easier to deploy and cache.
+dynamic site: trang động@@This dynamic site requires backend data for each page.
+props: thuộc tính (React)@@The component receives user data through props.
+hook: hook (React)@@We created a custom hook to manage authentication state.
+lifecycle: vòng đời@@Which lifecycle method handles cleanup?
+render: kết xuất@@This component will re-render when the state changes.
+reflow: tính toán lại bố cục@@Too many style updates can cause reflow issues.
+repaint: vẽ lại giao diện@@Repaint occurs when visual elements change.
+asset: tài nguyên@@All static assets are stored in a CDN.
+bundle: gói@@The bundle size decreased after removing unused libraries.
+minification: rút gọn mã@@Minification reduces file size for faster loading.
+tree shaking: loại bỏ mã không dùng@@Tree shaking removes unused exports automatically.
+webpack: Webpack@@The project uses webpack for bundling.
+rollup: Rollup@@Rollup provides a cleaner output for libraries.
+parcel: Parcel@@Parcel configures itself automatically with zero setup.
+vite: Vite@@Vite offers fast HMR during development.
+babel: Babel@@Babel transpiles modern JavaScript into browser-compatible code.
+transpiler: trình chuyển mã@@The transpiler converts TypeScript into JavaScript.
+polyfill: mã bổ sung tính năng@@We added a polyfill to support older browsers.
+service worker: service worker@@The service worker enables offline caching.
+PWA: ứng dụng web tiến tiến@@We turned the app into a PWA for better mobile experience.
+cache: bộ nhớ đệm@@The cache stores frequently accessed data.
+local storage: lưu trữ cục bộ@@User preferences are saved in local storage.
+session storage: lưu trữ phiên@@Session storage clears data when the tab closes.
+cookie: cookie@@The cookie stores the authentication token.
+authentication: xác thực@@Authentication is required to access this endpoint.
+authorization: phân quyền@@Authorization determines what actions the user can perform.
+CORS: chia sẻ tài nguyên giữa các miền@@CORS needs to be configured to allow cross-domain requests.
+AJAX: AJAX@@The page loads extra data via AJAX calls.
+fetch: hàm fetch@@We use fetch to request data from the API.
+XHR: XMLHttpRequest@@XHR was replaced with modern fetch APIs.
+API endpoint: điểm cuối API@@This API endpoint returns user profile details.
+GraphQL: GraphQL@@GraphQL allows clients to request exactly the data they need.
+socket: socket@@The socket connection enables real-time updates.
+push notification: thông báo đẩy@@The system sends a push notification when a new message arrives.
+form: biểu mẫu@@The form validates all fields before submission.
+validation: xác thực dữ liệu@@Have you implemented client-side validation yet?
+accessibility: khả năng tiếp cận@@Accessibility improvements helped more users navigate the site.
+seo: tối ưu công cụ tìm kiếm@@Good SEO practices increase search visibility.
+aria: thuộc tính ARIA@@ARIA attributes make the interface accessible to screen readers.
+sitemap: sơ đồ trang@@Did you update the sitemap after adding new pages?
+sitemap.xml: tệp sitemap.xml@@The sitemap.xml helps search engines crawl the site efficiently.
+robots.txt: tệp robots.txt@@Robots.txt controls which pages search engines can access.
+image optimization: tối ưu hình ảnh@@Image optimization reduced page load time significantly.
+lazy loading: tải lười@@We enabled lazy loading to defer off-screen images.
+cdn: mạng phân phối nội dung@@The CDN delivers static assets faster to global users.
+hosting: lưu trữ web@@Which hosting provider are we using for deployment?
+HTML service: dịch vụ HTML@@The HTML service generates server-rendered markup.
+CSS service: dịch vụ CSS@@The CSS service applies dynamic styling rules.
+JavaScript service: dịch vụ JavaScript@@The JavaScript service handles runtime interactions.
+DOM service: dịch vụ DOM@@The DOM service manages virtual DOM updates.
+element service: dịch vụ phần tử@@The element service manipulates UI elements dynamically.
+attribute service: dịch vụ thuộc tính@@The attribute service assigns metadata to components.
+selector service: dịch vụ bộ chọn@@The selector service queries elements efficiently.
+stylesheet service: dịch vụ bảng kiểu@@The stylesheet service injects optimized CSS bundles.
+grid service: dịch vụ lưới@@The grid service organizes layout structures.
+flexbox service: dịch vụ flexbox@@The flexbox service aligns items responsively.
+viewport service: dịch vụ vùng xem@@The viewport service adapts layout to screen size.
+header service: dịch vụ phần đầu trang@@The header service renders navigation and branding.
+footer service: dịch vụ chân trang@@The footer service displays legal and contact information.
+navigation service: dịch vụ điều hướng@@The navigation service handles route transitions.
+sidebar service: dịch vụ thanh bên@@The sidebar service manages collapsible menus.
+route service: dịch vụ tuyến đường@@The route service maps URLs to components.
+routing service: dịch vụ định tuyến@@The routing service resolves navigation events.
+SPA service: dịch vụ SPA@@The SPA service maintains state across page transitions.
+MPA service: dịch vụ MPA@@The MPA service handles multi-page rendering logic.
+SSR service: dịch vụ SSR@@The SSR service improves performance by pre-rendering pages.
+CSR service: dịch vụ CSR@@The CSR service loads content using client-side rendering.
+hydration service: dịch vụ hydration@@The hydration service attaches scripts to server-rendered HTML.
+database: cơ sở dữ liệu@@Which database are we using for this project?
+table: bảng@@The table stores all customer transaction data.
+row: hàng@@This row contains outdated information.
+column: cột@@The column was added to support new reporting requirements.
+field: trường@@Each field must follow strict validation rules.
+record: bản ghi@@A new record was inserted after user registration.
+schema: lược đồ@@The schema defines all tables and relationships.
+index: chỉ mục@@Adding an index improved query performance.
+primary key: khóa chính@@The primary key uniquely identifies each record.
+foreign key: khóa ngoại@@The foreign key maintains relational integrity.
+unique constraint: ràng buộc duy nhất@@The unique constraint prevents duplicate emails.
+check constraint: ràng buộc kiểm tra@@A check constraint validates acceptable values.
+transaction: giao dịch@@The transaction ensures all steps succeed or fail together.
+commit: xác nhận giao dịch@@Don’t forget to commit after updating the table.
+isolation level: mức cô lập@@Which isolation level prevents dirty reads?
+ACID: tính chất ACID@@ACID properties guarantee reliable database operations.
+BASE: mô hình BASE@@BASE is often used in large distributed systems.
+query: truy vấn@@Did your query return the correct dataset?
+select: chọn@@This SELECT statement retrieves user profiles.
+insert: chèn@@We INSERT records when new users join.
+update: cập nhật@@The UPDATE operation modifies existing data.
+delete: xóa@@Are you sure you want to DELETE this record?
+join: kết nối@@JOIN operations combine data from multiple tables.
+inner join: kết nối trong@@INNER JOIN returns matching rows from both tables.
+left join: kết nối trái@@LEFT JOIN includes all rows from the left table.
+right join: kết nối phải@@RIGHT JOIN keeps rows from the right-side table.
+full join: kết nối đầy đủ@@FULL JOIN merges records from both sides.
+subquery: truy vấn con@@The result is filtered using a subquery.
+view: khung nhìn@@A view provides a simplified representation of complex data.
+materialized view: khung nhìn vật hóa@@The materialized view stores precomputed results.
+stored procedure: thủ tục lưu trữ@@The stored procedure automates repetitive logic.
+trigger: kích hoạt@@The trigger logs changes after every update.
+cursor: con trỏ@@A cursor iterates through result sets row by row.
+cursor fetch: lấy dữ liệu từ con trỏ@@Cursor fetch retrieves records sequentially.
+normalization: chuẩn hóa@@Normalization eliminates redundant data.
+denormalization: phi chuẩn hóa@@Denormalization speeds up read-heavy queries.
+sharding: phân mảnh dữ liệu@@Sharding distributes data across multiple nodes.
+replication: sao chép dữ liệu@@Replication ensures high availability.
+backup: sao lưu@@The backup completed successfully at midnight.
+restore: khôi phục@@We had to restore from yesterday’s backup.
+dump: trích xuất dữ liệu@@The dump file contains the entire database.
+restore point: điểm khôi phục@@A restore point allows rolling back changes.
+migration: di chuyển dữ liệu@@Database migration adds new tables and fields.
+ORM: ánh xạ đối tượng–quan hệ@@The ORM maps objects directly to database tables.
+ODM: ánh xạ đối tượng–tài liệu@@The ODM helps manage NoSQL document structures.
+document store: kho tài liệu@@A document store handles flexible JSON records.
+key-value store: kho key–value@@A key-value store is ideal for caching.
+column family: cơ sở dữ liệu dạng cột@@Column family databases store data by column groups.
+graph database: cơ sở dữ liệu đồ thị@@A graph database models complex relationships.
+time-series database: cơ sở dữ liệu chuỗi thời gian@@A time-series database stores metrics over time.
+in-memory database: cơ sở dữ liệu trong bộ nhớ@@The in-memory database offers extremely fast reads.
+memcached: Memcached@@Memcached temporarily caches frequently used data.
+consistency: tính nhất quán@@How strong is the consistency requirement?
+availability: tính sẵn sàng@@High availability is essential for this service.
+partition tolerance: chịu phân hoạch@@Distributed systems must tolerate partitions.
+CAP theorem: định lý CAP@@The CAP theorem states that you can choose only two properties at once.
+query planner: bộ lập kế hoạch truy vấn@@The query planner determines the execution path.
+execution plan: kế hoạch thực thi@@The execution plan reveals which indexes are used.
+optimizer: bộ tối ưu@@The optimizer improves the performance of complex queries.
+statistics: thống kê@@Outdated statistics can degrade performance.
+table scan: quét bảng@@A table scan occurs when no index is used.
+index scan: quét chỉ mục@@Index scan is faster for selective queries.
+composite index: chỉ mục tổng hợp@@A composite index covers multiple columns.
+covering index: chỉ mục bao phủ@@A covering index satisfies queries without hitting the table.
+foreign key constraint: ràng buộc khóa ngoại@@The foreign key constraint prevents invalid references.
+entity: thực thể@@Each entity represents a model in the domain layer.
+relationship: mối quan hệ@@I mapped the relationship between the entities to ensure the data model works correctly.
+ER diagram: sơ đồ thực thể – quan hệ@@Could you review the ER diagram to confirm the schema design is accurate?
+DDL: ngôn ngữ định nghĩa dữ liệu@@I executed the DDL statements to create all necessary tables for the module.
+DML: ngôn ngữ thao tác dữ liệu@@Why did this DML query update more rows than expected?
+database service: dịch vụ cơ sở dữ liệu@@Our database service automatically scales when the workload increases.
+table service: dịch vụ bảng@@I implemented a table service to manage dynamic table creation.
+row service: dịch vụ hàng@@The row service validates each row before insertion.
+column service: dịch vụ cột@@Can you adjust the column service to support additional metadata?
+field service: dịch vụ trường@@The field service normalizes user input for consistent formatting.
+record service: dịch vụ bản ghi@@I used the record service to retrieve the latest entry added today.
+schema service: dịch vụ lược đồ@@The schema service checks the database structure during deployment.
+index service: dịch vụ chỉ mục@@Our index service suggests optimal indexes based on query patterns.
+transaction service: dịch vụ giao dịch@@The transaction service ensures all operations succeed before committing.
+commit service: dịch vụ xác nhận@@I triggered the commit service to finalize the transaction.
+rollback service: dịch vụ hoàn tác@@Why did the system perform a rollback instead of completing the update?
+ACID service: dịch vụ ACID@@This ACID service guarantees data reliability even during system failures.
+BASE service: dịch vụ BASE@@We used a BASE service to support high availability under heavy load.
+query service: dịch vụ truy vấn@@I built a query service to simplify complex data retrieval.
+select service: dịch vụ select@@The select service returns only the filtered data required for analytics.
+insert service: dịch vụ insert@@Did you test the insert service with large datasets?
+update service: dịch vụ update@@I updated the update service to support partial field updates.
+delete service: dịch vụ delete@@The delete service now includes soft-delete functionality.
+join service: dịch vụ join@@The join service automatically builds the required table relationships.
+stakeholder: bên liên quan@@I scheduled a meeting with the stakeholder to clarify requirements.
+roadmap: lộ trình@@Does this roadmap reflect all upcoming product phases?
+milestone: cột mốc@@We just achieved a major milestone ahead of schedule.
+deliverable: sản phẩm bàn giao@@I uploaded the final deliverable to the project folder.
+scope: phạm vi@@The team agreed to reduce the scope to meet the deadline.
+user story: câu chuyện người dùng@@I wrote a new user story describing the checkout flow.
+acceptance criteria: tiêu chí chấp nhận@@Are these acceptance criteria clear enough for QA to validate?
+use case: ca sử dụng@@This use case explains how the system handles failed payments.
+persona: chân dung người dùng@@I created a persona representing our primary customer segment.
+product backlog: tồn đọng sản phẩm@@The product backlog has been reprioritized for the next sprint.
+sprint: chu kỳ phát triển@@Our sprint ends in three days; are all tasks on track?
+sprint planning: lập kế hoạch sprint@@I facilitated the sprint planning session this morning.
+sprint review: đánh giá sprint@@What feedback did the client give during the sprint review?
+retrospective: hồi cứu@@We identified three improvements during the retrospective.
+kanban: phương pháp Kanban@@I moved the ticket to “In Progress” on the kanban board.
+scrum: phương pháp Scrum@@Our scrum meeting today focused on resolving blockers.
+waterfall: mô hình thác nước@@This project follows a strict waterfall model due to compliance rules.
+estimate: ước lượng@@I updated the task estimate after clarifying the requirements.
+velocity: vận tốc làm việc@@What’s our current sprint velocity?
+burn down: biểu đồ burn-down@@I checked the burn-down chart to track remaining work.
+burn up: biểu đồ burn-up@@The burn-up chart shows steady progress toward the release goal.
+capacity: khả năng/ công suất thực hiện@@The team’s capacity increased after onboarding two new developers.
+prioritization: ưu tiên hóa@@We held a prioritization session to reorder the backlog.
+minimum viable product (MVP): sản phẩm khả dụng tối thiểu@@We launched an MVP to validate early user interest.
+go-to-market: chiến lược đưa sản phẩm ra thị trường@@The go-to-market plan was finalized with the marketing team.
+launch: ra mắt@@We’re preparing all assets required for the product launch.
+onboarding: làm quen ban đầu@@I improved the onboarding flow to reduce user friction.
+retention: giữ chân người dùng@@What strategies can we use to improve customer retention?
+engagement: mức độ tương tác@@Our new feature significantly increased user engagement.
+churn: rời bỏ@@The team analyzed churn data to understand why users leave.
+monetization: kiếm tiền@@We are experimenting with new monetization models.
+pricing: định giá@@I reviewed the pricing strategy based on competitor analysis.
+market fit: phù hợp thị trường@@Are we confident this feature improves product-market fit?
+competitive analysis: phân tích cạnh tranh@@I conducted a competitive analysis to identify market gaps.
+stakeholder alignment: thống nhất giữa các bên liên quan@@We achieved stakeholder alignment after multiple workshops.
+risk: rủi ro@@I documented a new risk related to the payment gateway.
+escalation: leo thang vấn đề@@I sent an escalation to management due to critical delays.
+governance: quản trị@@This project requires strict governance for audit compliance.
+compliance: tuân thủ@@Are our processes fully aligned with compliance standards?
+service level agreement (SLA): thỏa thuận mức độ dịch vụ@@The system must meet the SLA of 99.9% uptime.
+key performance indicator (KPI): chỉ số hiệu suất chính@@We defined clear KPIs for the next quarter.
+objective: mục tiêu@@The main objective is to reduce processing time by 20%.
+OKR: mục tiêu và kết quả then chốt@@I updated the OKR progress for this month.
+business case: luận cứ kinh doanh@@I prepared a business case to justify the new platform investment.
+ROI: lợi tức đầu tư@@What is the projected ROI for this initiative?
+budget: ngân sách@@The current budget won’t cover additional development work.
+timeline: thời gian thực hiện@@I adjusted the timeline to reflect the new scope.
+resource: tài nguyên@@We need additional resources to meet the deadline.
+vendor: nhà cung cấp@@I contacted the vendor to resolve the integration issue.
+procurement: mua sắm@@Procurement has approved the new software licenses.
+stakeholder map: bản đồ bên liên quan@@I updated the stakeholder map based on the new org structure.
+requirement gathering: thu thập yêu cầu@@We completed the requirement-gathering workshop.
+feature request: yêu cầu tính năng@@I logged a feature request submitted by the client.
+stakeholder service: dịch vụ stakeholder@@I built a stakeholder service to centralize communication.
+roadmap service: dịch vụ roadmap@@The roadmap service generates dynamic phase timelines.
+milestone service: dịch vụ cột mốc@@The milestone service tracks progress across releases.
+deliverable service: dịch vụ bàn giao@@The deliverable service stores all submission artifacts.
+scope service: dịch vụ phạm vi@@I enhanced the scope service to validate boundary rules.
+requirement service: dịch vụ yêu cầu@@The requirement service parses business rules automatically.
+persona service: dịch vụ persona@@Our persona service helps personalize user experiences.
+sprint service: dịch vụ sprint@@The sprint service automates sprint creation and scheduling.
+retrospective module: mô-đun hồi cứu@@I deployed the retrospective module for the scrum team.
+kanban service: dịch vụ Kanban@@The kanban service syncs real-time board updates.
+scrum service: dịch vụ Scrum@@The scrum service manages daily stand-up logs.
+waterfall service: dịch vụ Waterfall@@The waterfall service models linear project phases.
+estimate service: dịch vụ ước lượng@@The estimate service calculates effort automatically.
+estimation service: dịch vụ ước tính@@Why is the estimation service giving a higher value today?
+waterfall service: dịch vụ mô hình thác nước@@We refined the waterfall service for compliance workflows.
+estimate service: dịch vụ ước tính@@I used the estimate service to revise the effort size.
+estimation service: dịch vụ tính toán ước lượng@@The estimation service now considers risk factors.
+git: hệ thống quản lý phiên bản Git@@I pushed my latest changes to the git repository.
+repository: kho mã nguồn@@The repository contains all project source code.
+remote: kho từ xa@@Did you add the correct remote before pushing?
+origin: kho gốc (remote mặc định)@@The origin URL was updated to the new server.
+clone: sao chép kho@@I cloned the repository to start debugging locally.
+fork: tách nhánh kho@@Why did you fork the project instead of cloning it directly?
+branch: nhánh@@I created a new branch for the authentication feature.
+main: nhánh chính (main)@@I pushed the latest changes to the main branch for deployment.
+master: nhánh chính cũ (master)@@Why is the master branch still receiving updates instead of main?
+feature branch: nhánh tính năng@@I created a feature branch to isolate the new login workflow.
+hotfix branch: nhánh sửa lỗi khẩn cấp@@We used a hotfix branch to patch the production issue immediately.
+release branch: nhánh phát hành@@The release branch is ready for final verification.
+push: đẩy mã lên remote@@Did you push your updates before creating the pull request?
+pull: kéo mã từ remote@@I pulled the latest changes to sync with the remote repository.
+merge: gộp nhánh@@I merged the approved changes into the main branch.
+rebase: tái tạo lịch sử nhánh@@Why did you rebase instead of merging for this workflow?
+cherry-pick: chọn commit cụ thể@@I cherry-picked the specific commit needed for the fix.
+tag: thẻ đánh dấu@@I added a new tag for the production release.
+annotated tag: thẻ có mô tả@@The annotated tag includes release notes for tracking.
+lightweight tag: thẻ nhẹ@@Should this build use a lightweight tag instead?
+pull request: yêu cầu hợp nhất mã@@I submitted a pull request for your review.
+merge request: yêu cầu gộp mã@@Did you leave comments on the merge request?
+review: xem xét mã@@I completed the code review and left detailed feedback.
+conflict: xung đột mã@@A conflict occurred because both branches updated the same file.
+resolve: giải quyết xung đột@@I resolved the conflict and committed the final version.
+diff: sự khác biệt (diff)@@Could you check the diff to see what actually changed?
+stash: cất tạm thay đổi@@I stashed my work before switching branches.
+apply: áp dụng trở lại@@I applied the stashed changes to continue working.
+pop: lấy ra và xóa stash@@I popped the stash and verified everything works fine.
+checkout: chuyển nhánh / file@@I checked out the release branch for staging testing.
+HEAD: con trỏ hiện tại@@The HEAD is currently pointing to the latest commit on main.
+detached HEAD: HEAD tách rời@@You’re in a detached HEAD state; do you want to switch back?
+submodule: mô-đun con@@I updated the submodule to the newest commit.
+subtree: cây con@@We merged an external repo using the subtree strategy.
+commit message: thông điệp commit@@The commit message should clearly describe your changes.
+history: lịch sử commit@@I checked the commit history to track when the issue started.
+blame: theo dõi dòng thay đổi@@I used git blame to find who modified this line.
+bisect: chia đôi để tìm lỗi@@We used git bisect to identify the commit that introduced the bug.
+commit hash: mã định danh commit@@Could you send me the commit hash of the fix?
+SHA: mã SHA@@The SHA doesn’t match the version deployed yesterday.
+gitignore: tệp loại trừ@@I added logs to the gitignore file to avoid committing them.
+gitattributes: tệp thuộc tính Git@@The gitattributes file controls how line endings are handled.
+merge strategy: chiến lược merge@@What merge strategy should we use for this repo?
+fast-forward: gộp nhanh (FF)@@This branch allows a fast-forward merge without conflicts.
+squash: gộp commit@@I squashed multiple commits into one to keep history clean.
+amend: chỉnh sửa commit cuối@@I amended the commit to update the documentation.
+revert: hoàn tác commit@@I reverted the faulty commit to restore stable behavior.
+git service: dịch vụ Git@@Our git service automatically performs security scans.
+repository service: dịch vụ kho nguồn@@The repository service manages repo lifecycle events.
+remote service: dịch vụ kho từ xa@@The remote service synchronizes changes across environments.
+origin service: dịch vụ origin@@The origin service points to our main code repository.
+clone service: dịch vụ sao chép kho@@The clone service provisions local workspaces automatically.
+fork service: dịch vụ tách kho@@The fork service creates isolated copies for contributors.
+branch service: dịch vụ nhánh@@The branch service handles automatic branch creation.
+main service: dịch vụ nhánh chính@@The main service orchestrates the core system logic.
+master service: dịch vụ master@@The master service coordinates the distributed nodes.
+task: nhiệm vụ@@I updated the task status to reflect current progress.
+ticket: phiếu công việc@@The ticket was reopened due to missing information.
+bug report: báo cáo lỗi@@Did you complete the bug report with reproduction steps?
+support: hỗ trợ@@I provided support to help the user fix the issue.
+incident: sự cố@@The incident was escalated to the infrastructure team.
+postmortem: báo cáo nguyên nhân sau sự cố@@We wrote a postmortem explaining why the outage happened.
+runbook: sổ tay quy trình xử lý@@I followed the runbook to restore the service quickly.
+on-call: trực xử lý sự cố@@I was on-call last night when the alert triggered.
+alert: cảnh báo@@Why did this alert fire multiple times?
+notification: thông báo@@I received a notification that the job failed.
+dashboard: bảng điều khiển@@The dashboard shows a spike in error rates.
+report: báo cáo@@I prepared a performance report for the weekly meeting.
+log: nhật ký hệ thống@@I checked the logs to identify the root cause.
+audit: kiểm toán@@The audit revealed several configuration inconsistencies.
+metric: chỉ số đo lường@@This metric indicates a drop in API response time.
+heatmap: bản đồ nhiệt@@The heatmap highlights where users click most frequently.
+trend: xu hướng@@The trend shows continuous improvement over the last quarter.
+chart: biểu đồ@@I added a new chart to visualize processing delays.
+insight: thông tin chuyên sâu@@This report provided valuable insight into user behavior.
+analysis: phân tích@@I completed the analysis and documented key findings.
+spec: đặc tả@@The spec requires additional clarification before development.
+proposal: đề xuất@@I drafted a proposal outlining the solution approach.
+meeting: cuộc họp@@Are you joining the meeting in five minutes?
+agenda: chương trình họp@@I updated the meeting agenda with two new topics.
+minutes: biên bản họp@@I shared the meeting minutes with the entire team.
+action item: mục hành động@@I completed all action items assigned to me.
+follow-up: theo dõi sau@@Did you send the follow-up message to the client?
+deadline: hạn chót@@We extended the deadline due to unexpected issues.
+handover: bàn giao@@I prepared the handover document for the next team.
+handoff: chuyển giao@@When will the feature be ready for QA handoff?
+README: tệp mô tả dự án@@I updated the README to explain the new setup process.
+changelog: nhật ký thay đổi@@The changelog lists all updates included in this release.
+versioning: phiên bản hóa@@Our versioning strategy follows semantic versioning.
+smoke test: kiểm thử nhanh@@I performed a smoke test before running deeper tests.
+sanity test: kiểm thử sanity@@Why did the sanity test fail on staging?
+regression test: kiểm thử hồi quy@@The regression test suite caught several issues.
+quality assurance: đảm bảo chất lượng@@Our quality assurance team validated the build.
+QA: kiểm thử chất lượng@@QA reported three new issues this morning.
+UAT: kiểm thử chấp nhận người dùng@@UAT starts tomorrow with real customer scenarios.
+staging: môi trường staging@@The staging environment mirrors production for final checks.
+production: môi trường production@@We deployed the fix to production last night.
+environment: môi trường@@Which environment shows this issue: staging or prod?
+task service: dịch vụ nhiệm vụ@@The task service automates task assignment.
+ticket service: dịch vụ phiếu công việc@@The ticket service integrates with Jira.
+issue service: dịch vụ vấn đề@@The issue service generates detailed incident records.
+support service: dịch vụ hỗ trợ@@The support service handles user requests.
+incident service: dịch vụ sự cố@@The incident service logs all system failures.
+postmortem service: dịch vụ báo cáo sau sự cố@@The postmortem service generates structured analyses.
+runbook service: dịch vụ runbook@@The runbook service provides step-by-step recovery instructions.
+on-call service: dịch vụ trực sự cố@@The on-call service rotates responsibilities across the team.
+alert service: dịch vụ cảnh báo@@The alert service sends notifications when thresholds are exceeded.
+notification module: mô-đun thông báo@@I updated the notification module to support scheduled alerts.
+tradition: truyền thống@@Is this festival still celebrated as part of your family tradition?
+transport: vận chuyển@@We arranged transport to deliver the equipment safely.
+treasure: kho báu@@He treated that old book like a treasure passed down for generations.
+trust: niềm tin@@I trust you to handle this task without supervision.
+truth: sự thật@@What is the truth behind this unexpected system behavior?
+vacation: kỳ nghỉ@@I’m planning a short vacation to recharge.
+value: giá trị@@This feature adds real value to the customer experience.
+variety: sự đa dạng@@The platform offers a variety of customization options.
+vehicle: phương tiện@@Which vehicle did you use to transport the materials?
+victory: chiến thắng@@The team celebrated a small but meaningful victory today.
+village: ngôi làng@@She returned to her village after many years abroad.
+vision: tầm nhìn@@Our long-term vision focuses on sustainable growth.
+visitor: khách tham quan@@The visitor asked for a tour of the facility.
+voice: giọng nói@@His voice was calm despite the pressure.
+volume: âm lượng@@The system can’t handle this volume of requests yet.
+wealth: sự giàu có@@True wealth comes from knowledge and experience.
+weather: thời tiết@@The weather suddenly changed during the event.
+wedding: đám cưới@@Are you attending the wedding this weekend?
+weekend: cuối tuần@@I spent the weekend finishing my personal projects.
+weight: cân nặng@@This package has too much weight to ship easily.
+wildlife: đời sống hoang dã@@This area is protected to preserve local wildlife.
+winner: người chiến thắng@@She was announced as the winner of the competition.
+wisdom: sự khôn ngoan@@Your advice shows a lot of wisdom.
+worker: người lao động@@Each worker received new safety training today.
+youth: tuổi trẻ@@His youth gives him incredible energy and creativity.
+ability: khả năng@@Do you have the ability to work under pressure?
+accident: tai nạn@@The system outage was caused by a configuration accident.
+achievement: thành tựu@@Completing this project ahead of schedule is a major achievement.
+addition: sự thêm vào@@In addition to that module, we added a new feature.
+advice: lời khuyên@@Thanks for the advice; it really helped.
+age: tuổi@@What is the minimum age required for this program?
+agreement: thỏa thuận@@We reached an agreement after several discussions.
+aid: sự hỗ trợ@@They provided aid to support our transition.
+ambition: tham vọng@@Her ambition drives her to constantly improve.
+anger: sự tức giận@@He tried to hide his anger during the meeting.
+announcement: thông báo@@The company made an important announcement today.
+appearance: diện mạo@@His appearance changed significantly after the training.
+application: ứng dụng@@I submitted an application for the leadership program.
+appointment: cuộc hẹn@@Do you have an appointment with the manager?
+argument: tranh cãi@@Their argument was about how to implement the feature.
+arrival: sự đến@@Her arrival surprised everyone in the office.
+aspect: khía cạnh@@This aspect of the design still needs improvement.
+assignment: nhiệm vụ@@I finished the assignment ahead of time.
+attempt: nỗ lực@@His attempt to fix the issue was successful.
+attitude: thái độ@@I appreciate your positive attitude during challenges.
+authority: quyền hạn@@Who has the authority to approve this change?
+background: nền tảng@@My background in engineering helped with this task.
+balance: cân bằng@@It’s hard to balance speed and quality in product development.
+behaviour: hành vi@@This behaviour only occurs under heavy load.
+benefit: lợi ích@@What benefit does this solution bring to users?
+birth: sự sinh@@The birth of this new product line transformed our strategy.
+border: biên giới@@They crossed the border early in the morning.
+capacity: sức chứa@@The server reached its maximum capacity during peak hours.
+category: danh mục@@Which category should this ticket be assigned to?
+challenge: thử thách@@Solving this bug was a real challenge.
+character: nhân vật / tính cách@@His character makes him a trustworthy leader.
+choice: sự lựa chọn@@That was the best choice given the circumstances.
+citizen: công dân@@Every citizen has the right to access this service.
+comment: bình luận@@Did you leave a comment on the document?
+committee: ủy ban@@The committee will review your proposal tomorrow.
+communication: giao tiếp@@Clear communication is essential for teamwork.
+comparison: so sánh@@This comparison shows significant performance improvements.
+confidence: sự tự tin@@I have confidence that we can deliver on time.
+connection: kết nối@@The connection became unstable during the call.
+construction: xây dựng@@The construction of the new center will start next month.
+contribution: đóng góp@@Your contribution had a big impact on the project.
+conversation: cuộc trò chuyện@@We had a long conversation about the roadmap.
+culture: văn hóa@@The company culture emphasizes innovation.
+damage: thiệt hại@@The storm caused serious damage to the equipment.
+decision: quyết định@@What decision did the team make after the review?
+definition: định nghĩa@@The definition of this term needs clarification.
+delivery: giao hàng@@We scheduled the delivery for tomorrow afternoon.
+demand: nhu cầu@@There’s a high demand for this type of service.
+democracy: dân chủ@@Voting is a key part of democracy.
+department: phòng ban@@I sent the request to the finance department.
+description: mô tả@@This description doesn’t match the expected behavior.
+development: phát triển@@The development process is entering its final phase.
+device: thiết bị@@Which device are you testing this on?
+difficulty: khó khăn@@He overcame great difficulty to complete the task.
+direction: hướng@@Could you point me in the right direction?
+discussion: thảo luận@@Our discussion brought many useful insights.
+disease: bệnh tật@@This disease spreads quickly if not controlled.
+distance: khoảng cách@@The distance between the offices is quite large.
+education: giáo dục@@Education plays a critical role in long-term success.
+effort: nỗ lực@@Thanks for putting so much effort into this task.
+emotion: cảm xúc@@She spoke with strong emotion during the presentation.
+energy: năng lượng@@His energy motivates the entire team.
+error: lỗi@@I fixed the error that caused the system crash.
+evidence: bằng chứng@@We need more evidence before making a conclusion.
+example: ví dụ@@This diagram is a good example of clean architecture.
+experience: trải nghiệm@@Her experience helped resolve the issue quickly.
+expert: chuyên gia@@An expert reviewed the technical details for accuracy.
+fact: sự thật@@The fact is, we need more time to finish.
+failure: thất bại@@This failure taught us how to improve our strategy.
+faith: niềm tin@@I have faith that the team will deliver.
+feedback: phản hồi@@Did you receive the client’s feedback on the prototype?
+finance: tài chính@@The finance team needs updated cost estimates.
+focus: trọng tâm@@I need to focus to complete the analysis properly.

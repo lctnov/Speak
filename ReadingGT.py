@@ -19,9 +19,9 @@ while True:
     for idx, line in enumerate(sentences, start=1):
         try:
             # Tách theo dấu phẩy đầu tiên
-            parts = line.split("@", 1)
-            sentence_text = parts[0].strip() if len(parts) > 0 else ""
-            vocab_part = parts[1].strip() if len(parts) > 1 else ""
+            parts = line.split("@@", 1)
+            sentence_text = parts[1].strip() if len(parts) > 0 else ""
+            vocab_part = parts[0].strip() if len(parts) > 1 else ""
 
             # In ra màn hình
             print(f"Đang đọc câu {idx} [{GREEN_BOLD}{vocab_part}{RESET}]: {sentence_text}")
